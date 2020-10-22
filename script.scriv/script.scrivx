@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Identifier="F190E3F8-C7D1-4132-A02B-913A952571CC" Version="2.0" Creator="SCRMAC-3.1.5-12258" Device="MBP-NBR" Author="Bressoud Nicolas" Modified="2020-10-22 10:51:07 +0200" ModID="6F860146-9AFD-4F71-A627-0FFE31F40392">
+    <Binder>
+        <BinderItem UUID="CE1F9961-6785-47CE-9B78-73F9915DB862" Type="DraftFolder" Created="2020-10-22 09:38:38 +0200" Modified="2020-10-22 09:38:38 +0200">
+            <Title>Ébauche</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem UUID="8F4D27B4-7BFF-435A-9EDB-BA5BF5196092" Type="Text" Created="2020-10-22 10:27:40 +0200" Modified="2020-10-22 10:43:41 +0200">
+                    <Title>citations - rappel du code</Title>
+                    <TextSettings>
+                        <TextSelection>537,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="60E797F2-87AB-40FC-973B-E972450E6378" Type="Text" Created="2020-10-22 09:57:37 +0200" Modified="2020-10-22 10:13:41 +0200">
+                    <Title>preambule bookdown</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>560,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="38265D2D-BDDB-451B-B2F4-72F2CEF1F3DA" Type="Text" Created="2020-10-22 09:38:38 +0200" Modified="2020-10-22 10:28:03 +0200">
+                    <Title>inclusion</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>20,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="52B6D62D-8F88-49BE-B557-6197175A2D9A" Type="Text" Created="2020-10-22 09:41:15 +0200" Modified="2020-10-22 09:43:14 +0200">
+                    <Title>Forces</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>8,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="F46F8AC6-7EB8-41A4-962B-B52C49CFF1AF" Type="Text" Created="2020-10-22 09:41:29 +0200" Modified="2020-10-22 09:43:14 +0200">
+                    <Title>bep</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>33,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="14C155DF-48CB-479A-BCC6-8AA8A77B7E58" Type="Text" Created="2020-10-22 09:41:41 +0200" Modified="2020-10-22 09:43:14 +0200">
+                    <Title>pp</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>23,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="E223A8F7-09D0-4436-BF71-5017907A5853" Type="Text" Created="2020-10-22 09:41:45 +0200" Modified="2020-10-22 09:43:14 +0200">
+                    <Title>climat de classe</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>19,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="B8D07E63-8493-4235-8254-27A041380328" Type="Text" Created="2020-10-22 09:43:14 +0200" Modified="2020-10-22 09:43:32 +0200">
+                    <Title>Contexte</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>47,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="1239A45A-7751-4B5B-B2CE-8C245C079F81" Type="ResearchFolder" Created="2020-10-22 09:38:38 +0200" Modified="2020-10-22 09:38:38 +0200">
+            <Title>Recherche</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem UUID="FD0EC019-3E20-432B-8478-856A934BBE38" Type="TrashFolder" Created="2020-10-22 09:38:38 +0200" Modified="2020-10-22 09:38:38 +0200">
+            <Title>Corbeille</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="98A8AD7E-7F5B-4446-9C18-1ED948DFDE4A" Color="0.150563 0.150563 0.150563">
+            <Title>Classeur</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="B3A3C3B6-092E-4CF9-B5BF-E5DB83E1C5B0" Color="0.190667 0.172702 0.216529">
+            <Title>Résultats de la recherche</Title>
+        </Collection>
+    </Collections>
+    <SectionTypes>
+        <TypeDefinitions>
+            <Type ID="B14F8171-9C23-4C75-A700-341D6720B173">En-tête</Type>
+            <Type ID="EE14B00B-3FA9-4644-B62F-456C7F5A056D">En-tête</Type>
+            <Type ID="5D3F8AC3-0931-4DFC-9CC4-0EDA4A88FF53">Section</Type>
+        </TypeDefinitions>
+        <LevelTypes>
+            <Folders>
+                <Type>B14F8171-9C23-4C75-A700-341D6720B173</Type>
+            </Folders>
+            <Containers>
+                <Type>5D3F8AC3-0931-4DFC-9CC4-0EDA4A88FF53</Type>
+            </Containers>
+            <Files>
+                <Type>5D3F8AC3-0931-4DFC-9CC4-0EDA4A88FF53</Type>
+            </Files>
+        </LevelTypes>
+    </SectionTypes>
+    <LabelSettings>
+        <Title>Étiquette</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">Aucune étiquette</Label>
+            <Label ID="0" Color="0.993495 0.701207 0.732587">Rouge</Label>
+            <Label ID="1" Color="0.995418 0.790946 0.652385">Orange</Label>
+            <Label ID="2" Color="0.997722 0.89273 0.652569">Jaune</Label>
+            <Label ID="3" Color="0.715855 0.948712 0.697692">Vert</Label>
+            <Label ID="4" Color="0.702319 0.888276 0.974252">Bleu</Label>
+            <Label ID="5" Color="0.957566 0.766747 0.999616">Violet</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Statut</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">Aucun statut</Status>
+            <Status ID="0">À faire</Status>
+            <Status ID="1">En cours</Status>
+            <Status ID="2">Première ébauche</Status>
+            <Status ID="3">Ébauche révisée</Status>
+            <Status ID="4">Ébauche finale</Status>
+            <Status ID="5">Terminé</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2020-10-22 09:38:37 +0200" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2020-10-23 01:00:00 +0200" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="169" Characters="1391" Date="2020-10-22 10:50:52 +0200"/>
+    </ProjectTargets>
+    <RecentWritingHistory Date="2020-10-22 09:38:37 +0200">
+        <DraftWordCount>169</DraftWordCount>
+        <DraftCharCount>1391</DraftCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>2</OtherCharCount>
+    </RecentWritingHistory>
+    <PrintSettings PaperSize="595.275573,841.889771" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+</ScrivenerProject>

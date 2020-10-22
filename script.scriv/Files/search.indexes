@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SearchIndexes Version="1.0">
+    <Documents>
+        <Document ID="60E797F2-87AB-40FC-973B-E972450E6378">
+            <Title>preambule bookdown</Title>
+            <Text>---
+title: "Script du cadre théorique avec références"
+author: "Nicolas Bressoud"
+date: "octobre 2020"
+lang: fr
+toc-title: "Table des matières"
+output: 
+  bookdown::word_document2:
+    pandoc_args: [ "--csl", "apa.csl" ]
+    citation_package: none
+    toc: true
+    reference_docx: "template.docx"
+  bookdown::html_document2:
+    pandoc_args: [ "--csl", "apa.csl" ]
+    citation_package: none
+    toc: true
+  bookdown::pdf_document2:
+    citation_package: default
+    pandoc_args: [ "--csl", "apa.csl" ]
+    keep_tex: true
+bibliography: library_github.bib
+---
+
+
+
+# Biblio
+
+Biblio doit contenir les 4 références :
+Mais aussi voir pour faire la biblio d'office en entier à partir du fichier bibtex (bio CV).
+</Text>
+        </Document>
+        <Document ID="52B6D62D-8F88-49BE-B557-6197175A2D9A">
+            <Title>Forces</Title>
+            <Text># forces</Text>
+        </Document>
+        <Document ID="E223A8F7-09D0-4436-BF71-5017907A5853">
+            <Title>climat de classe</Title>
+            <Text># Climat de classe
+</Text>
+        </Document>
+        <Document ID="F46F8AC6-7EB8-41A4-962B-B52C49CFF1AF">
+            <Title>bep</Title>
+            <Text># Besoins éducatifs particuliers
+</Text>
+        </Document>
+        <Document ID="14C155DF-48CB-479A-BCC6-8AA8A77B7E58">
+            <Title>pp</Title>
+            <Text># Psychologie positive
+</Text>
+        </Document>
+        <Document ID="8F4D27B4-7BFF-435A-9EDB-BA5BF5196092">
+            <Title>citations - rappel du code</Title>
+            <Text>La vie est belle [@shankland2015 ; @shankland2011].
+La vie est belle (Shankland, 2015 ; Shankland &amp; Lamboy, 2011).
+
+Et aime bien le discours de Shankland [-@shankland2015].
+Et aime bien le discours de Shankland (2015).
+
+@shankland2012 pense aussi cela.
+Shankland (2012) pense aussi cela. 
+
+Mais pas tout le temps [voir @shankland2015, pp. 33-35 ; également @shankland2012, ch. 1].
+Mais pas tout le temps (voir Shankland, 2015, pp. 33-35, également 2012, ch. 1). 
+
+
+Salut la vie [@shankland2018a].
+Salut la vie (Shankland et al., 2018).
+
+</Text>
+        </Document>
+        <Document ID="38265D2D-BDDB-451B-B2F4-72F2CEF1F3DA">
+            <Title>inclusion</Title>
+            <Text># Inclusion
+Salut
+
+
+</Text>
+        </Document>
+        <Document ID="B8D07E63-8493-4235-8254-27A041380328">
+            <Title>Contexte</Title>
+            <Text># Contexte
+
+## Légal
+
+Salut
+
+## Pédagogie
+
+Bim
+</Text>
+        </Document>
+    </Documents>
+</SearchIndexes>

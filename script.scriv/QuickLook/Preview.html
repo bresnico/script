@@ -1,0 +1,187 @@
+<html>
+
+<head>
+<title>script</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<!-- NOTE: margin property = top-right-bottom-left -->
+<style type="text/css">
+
+	body {background-color: #e2e2e2}
+    
+    p.topLevelItemTitle {
+    	margin: 30px 0px 5px 0px;
+    	font-family: Times, Times New Roman, Palatino, Cochin, Serif;
+    	font-size: 30px;
+    	}
+    	
+    p.folderTitle {
+    	margin: 30px 0px 5px 0px;
+    	font-family: Times, Times New Roman, Palatino, Cochin, Serif;
+    	font-size: 18px;
+    	}
+    
+    p.itemTitle {
+    	margin: 30px 0px 5px 0px;
+    	font-family: Helvetica, Arial, Sans-Serif;
+    	font-size: 12px;
+    	font-weight: bold;
+    	}
+    	
+    p.itemText {
+    	margin: 0px 0px 10px 0px;
+    	font-family: Helvetica, Arial, Sans-Serif;
+    	font-size: 12px;
+    	}
+    	
+    p.itemTextStart {
+    	margin: 30px 0px 10px 0px;
+    	font-family: Helvetica, Arial, Sans-Serif;
+    	font-size: 12px;
+    	}
+    
+    .page {border: 1px solid #c0c0c0; background: #fff}
+    
+    hr {
+        border: none;
+        height: 1px;
+        color: #d4d4d4;
+        background-color: #d4d4d4;
+      	}
+      	
+    hr.afterTitle {
+    	margin-top: -3px;
+    }
+      	
+    hr.afterText {
+    	margin-top: 30px;
+    }
+      	
+    ul {
+      	list-style-type: none;
+      	padding-left: 30px;
+      	}
+      	
+</style>
+
+</head>
+
+<body>
+
+<table border="0" width="100%" cellspacing="3">
+<tr>
+<td>
+
+<table class="page" width="100%" cellspacing="10" cellpadding="2">
+
+<!-- Top margin -->
+<!-- Not needed, because of the padding above titles. -->
+<!--<tr><td height="15px"></td></tr>-->
+
+<tr>
+
+<!-- 42 + 30 of list indent = 72 - one inch. -->
+<!-- Actually that ends up too much, so we do 25 + 30 = 55px. -->
+<td width="25px">
+
+<td valign="top">
+
+<ul>
+<li>
+<p class="topLevelItemTitle">citations - rappel du code</p>
+<p class="itemText">La vie est belle [@shankland2015 ; @shankland2011].</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">La vie est belle (Shankland, 2015 ; Shankland &amp; Lamboy, 2011).</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Et aime bien le discours de Shankland [-@shankland2015].</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Et aime bien le discours de Shankland (2015).</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">@shankland2012 pense aussi cela.</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Shankland (2012) pense aussi cela.<span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Mais pas tout le temps [voir @shankland2015, pp. 33-35 ; également @shankland2012, ch. 1].</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Mais pas tout le temps (voir Shankland, 2015, pp. 33-35, également 2012, ch. 1).<span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Salut la vie [@shankland2018a].</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Sal...</p>
+</li>
+<li>
+<p class="topLevelItemTitle">preambule bookdown</p>
+<p class="itemText">---</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">title: "Script du cadre théorique avec références"</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">author: "Nicolas Bressoud"</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">date: "octobre 2020"</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">lang: fr</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">toc-title: "Table des matières"</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">output:<span class="Apple-converted-space"> </span></span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>bookdown::word_document2:</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>pandoc_args: [ "--csl", "apa.csl" ]</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>citation_package: none</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>toc: true</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>reference_docx: "template.docx"</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>bookdown::html_document2:</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>pandoc_args: [ "--csl", "apa.csl" ]</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>citation_package: none</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>toc: true</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>bookdown::pdf_document2:</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>citation_package: default</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>pandoc_args: [ "--csl", "apa.csl...</p>
+</li>
+<li>
+<p class="topLevelItemTitle">inclusion</p>
+<p class="itemText"># Inclusion</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Salut</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+<li>
+<p class="topLevelItemTitle">Forces</p>
+<p class="itemText"># forces</p>
+</li>
+<li>
+<p class="topLevelItemTitle">bep</p>
+<p class="itemText"># Besoins éducatifs particuliers</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+<li>
+<p class="topLevelItemTitle">pp</p>
+<p class="itemText"># Psychologie positive</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+<li>
+<p class="topLevelItemTitle">climat de classe</p>
+<p class="itemText"># Climat de classe</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+<li>
+<p class="topLevelItemTitle">Contexte</p>
+<p class="itemText"># Contexte</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">## Légal</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Salut</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">## Pédagogie</span></p></p>
+<p class="itemText"><p class="p2"><span class="s1"></span><br></p></p>
+<p class="itemText"><p class="p1"><span class="s1">Bim</span></p></p>
+<p class="itemText"><p class="p1"><span class="s1"></p>
+</li>
+</ul>
+
+</td>
+<td width="55px">
+</td>
+</tr>
+
+<!-- Bottom margin -->
+<tr><td height="15px"></td></tr>
+
+</table>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html>
