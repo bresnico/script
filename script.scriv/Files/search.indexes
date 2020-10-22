@@ -1,6 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SearchIndexes Version="1.0">
     <Documents>
+        <Document ID="DE3A19EB-D698-491E-BB79-824FC31075D0">
+            <Title>BEP</Title>
+            <Text># Besoins éducatifs particuliers
+
+## Contexte du handicap, vocabulaire, concepts
+
+## Environnement actuel</Text>
+        </Document>
+        <Document ID="4D6782A7-778C-41B5-9F2E-62BDF431EC1C">
+            <Title>Education positive</Title>
+            <Text># Éducation positive
+
+## Contextualisation internationale ou bonnes pratiques
+
+</Text>
+        </Document>
+        <Document ID="14C155DF-48CB-479A-BCC6-8AA8A77B7E58">
+            <Title>PP</Title>
+            <Text># Psychologie positive
+
+## Définition et fondements
+
+## Controverses
+
+## Études de base
+
+(Étude) Le rôles des émotions positives est mis en évidence dans les changement cognitifs des programmes de psychologie positive. [@gander2018]
+
+## A l’école
+
+(Étude) Chez les adolescents, l’intégration des stratégies de régulation émotionnelles jouent un rôle prépondérant dans le développement du bien-être. [@burckhardt2016]
+</Text>
+        </Document>
+        <Document ID="E223A8F7-09D0-4436-BF71-5017907A5853">
+            <Title>Climat de classe</Title>
+            <Text># Climat de classe
+
+## Climat d’établissement et santé psychique
+
+## Relations et enjeux émotionnels avec l’enseignant·e
+
+(Proposition théorique) La manière dont les enseignant·es communiquent les émotions, particulièrement dans les petits degrés, est une question importante de la recherche. [@yelinek2017]
+
+(Étude) Chez les adolescents, une qualité de relation à l’enseignant·e prédit moins de problèmes de comportement et des attitudes prosociales. [@obsuth2017]
+
+## Gestion de classe
+
+(Méta-analyse) La gestion de classe influence les résultats des élèves, notamment sur les plans motivationnels et émotionnels. [@korpershoek2016]
+
+
+
+</Text>
+        </Document>
+        <Document ID="8F4D27B4-7BFF-435A-9EDB-BA5BF5196092">
+            <Title>citations - rappel du code</Title>
+            <Text>La vie est belle [@shankland2015 ; @shankland2011].
+La vie est belle (Shankland, 2015 ; Shankland &amp; Lamboy, 2011).
+
+Et aime bien le discours de Shankland [-@shankland2015].
+Et aime bien le discours de Shankland (2015).
+
+@shankland2012 pense aussi cela.
+Shankland (2012) pense aussi cela. 
+
+Mais pas tout le temps [voir @shankland2015, pp. 33-35 ; également @shankland2012, ch. 1].
+Mais pas tout le temps (voir Shankland, 2015, pp. 33-35, également 2012, ch. 1). 
+
+
+Salut la vie [@shankland2018a].
+Salut la vie (Shankland et al., 2018).
+
+</Text>
+        </Document>
+        <Document ID="26D01FE5-AAD2-437F-89D1-CABA75FED546">
+            <Title>Bonheur</Title>
+            <Text># Bonheur, bien-être, etc
+
+## Bonheur, épistémologie, querelles
+
+Les querelles philosophiques autour de la notion de bonheur restent vives [Voir p.ex.@ferry2016].
+
+## Bien-être scolaire : définition et cadre
+
+</Text>
+        </Document>
+        <Document ID="79019203-CA7A-4901-A1A0-4E91A89A3F54">
+            <Title>Script des notions-1</Title>
+        </Document>
+        <Document ID="5BB84D1E-744B-409E-AEFF-0C853C864100">
+            <Title>Climat de classe</Title>
+            <Text># Climat de classe
+
+## Climat d’établissement et santé psychique
+
+## Relations et enjeux émotionnels avec l’enseignant·e
+
+La manière dont les enseignant·es communiquent les émotions, particulièrement dans les petits degrés, est une question importante de la recherche. [@yelinek2017]
+
+
+
+</Text>
+        </Document>
+        <Document ID="4E89CD94-B100-4563-B528-B83929C49DA2">
+            <Title>citations - rappel du code</Title>
+            <Text>La vie est belle [@shankland2015 ; @shankland2011].
+La vie est belle (Shankland, 2015 ; Shankland &amp; Lamboy, 2011).
+
+Et aime bien le discours de Shankland [-@shankland2015].
+Et aime bien le discours de Shankland (2015).
+
+@shankland2012 pense aussi cela.
+Shankland (2012) pense aussi cela. 
+
+Mais pas tout le temps [voir @shankland2015, pp. 33-35 ; également @shankland2012, ch. 1].
+Mais pas tout le temps (voir Shankland, 2015, pp. 33-35, également 2012, ch. 1). 
+
+
+Salut la vie [@shankland2018a].
+Salut la vie (Shankland et al., 2018).
+
+</Text>
+        </Document>
+        <Document ID="F46F8AC6-7EB8-41A4-962B-B52C49CFF1AF">
+            <Title>BEP</Title>
+            <Text># Besoins éducatifs particuliers
+
+## Contexte du handicap, vocabulaire, concepts
+
+(Proposition théorique) Dans cette approche biopsychosociale, la prise en compte du continuum processuel modifie nos conceptions de la notion de handicap mental et ne la résume pas à une limitation biologique. [@kinderman2005]
+
+## Environnement actuel</Text>
+        </Document>
+        <Document ID="7C0A3356-79A1-4981-81D8-878AC46C1F43">
+            <Title>Valeur p</Title>
+            <Text># Valeur p
+
+(Proposition théorique) Les erreurs de conceptions autour de la valeur P sont fréquentes. [@goodman2008]
+
+
+</Text>
+        </Document>
+        <Document ID="27F70D29-9DC1-49B4-83AC-0A48139B97AB">
+            <Title>Analyse Multiniveaux</Title>
+            <Text># Analyse multiniveaux
+</Text>
+        </Document>
         <Document ID="60E797F2-87AB-40FC-973B-E972450E6378">
             <Title>preambule bookdown</Title>
             <Text>---
@@ -34,64 +180,174 @@ Biblio doit contenir les 4 références :
 Mais aussi voir pour faire la biblio d'office en entier à partir du fichier bibtex (bio CV).
 </Text>
         </Document>
+        <Document ID="560F9661-1B5F-4F6E-A04D-F3FA7C261F23">
+            <Title>Education positive</Title>
+            <Text># Éducation positive
+
+## Contextualisation internationale ou bonnes pratiques
+
+</Text>
+        </Document>
+        <Document ID="6F3DCA6E-AF96-49F0-9012-D0E94881E38F">
+            <Title>Forces</Title>
+            <Text># Forces de caractère
+
+## En général
+
+## En contexte scolaire
+
+(HOT) The Good School. En Australie, chez les jeunes 12 ans et moins, différentes intégrations des forces sont présentées. Les chercheurs ne se proposent pas de mesurer les effets. [@white2015a]
+
+## Perspectives actuelles
+</Text>
+        </Document>
+        <Document ID="DE4AF975-C2AC-4A8E-9299-4E7B57A47E86">
+            <Title>Bonheur</Title>
+            <Text># Bonheur, bien-être, etc
+
+## Bonheur, épistémologie, querelles
+
+(Revue théorique) Les querelles philosophiques autour de la notion de bonheur restent vives [Voir p.ex.@ferry2016].
+
+## Bien-être scolaire : définition et cadre
+
+</Text>
+        </Document>
         <Document ID="52B6D62D-8F88-49BE-B557-6197175A2D9A">
             <Title>Forces</Title>
-            <Text># forces</Text>
-        </Document>
-        <Document ID="E223A8F7-09D0-4436-BF71-5017907A5853">
-            <Title>climat de classe</Title>
-            <Text># Climat de classe
-</Text>
-        </Document>
-        <Document ID="F46F8AC6-7EB8-41A4-962B-B52C49CFF1AF">
-            <Title>bep</Title>
-            <Text># Besoins éducatifs particuliers
-</Text>
-        </Document>
-        <Document ID="14C155DF-48CB-479A-BCC6-8AA8A77B7E58">
-            <Title>pp</Title>
-            <Text># Psychologie positive
-</Text>
-        </Document>
-        <Document ID="8F4D27B4-7BFF-435A-9EDB-BA5BF5196092">
-            <Title>citations - rappel du code</Title>
-            <Text>La vie est belle [@shankland2015 ; @shankland2011].
-La vie est belle (Shankland, 2015 ; Shankland &amp; Lamboy, 2011).
+            <Text># Forces de caractère
 
-Et aime bien le discours de Shankland [-@shankland2015].
-Et aime bien le discours de Shankland (2015).
+*Fouiller le site VIA.*
 
-@shankland2012 pense aussi cela.
-Shankland (2012) pense aussi cela. 
-
-Mais pas tout le temps [voir @shankland2015, pp. 33-35 ; également @shankland2012, ch. 1].
-Mais pas tout le temps (voir Shankland, 2015, pp. 33-35, également 2012, ch. 1). 
+## En général
 
 
-Salut la vie [@shankland2018a].
-Salut la vie (Shankland et al., 2018).
+## En contexte scolaire
+
+(Étude) En Autstralie, un coaching sur les forces développe l’engagement et l’espoir chez des jeunes de environ 10-11 ans. [@madden2011] 
+
+(HOT, revue de pratiques) The Good School. En Australie, chez les jeunes 12 ans et moins, différentes intégrations des forces sont présentées. Les chercheurs ne se proposent pas de mesurer les effets. [@white2015a]
+
+(Revue de pratiques) L’intégration des forces dans la vie scolaire est une pratique pertinente dans les écoles du XXIème siècle. [@lavy2020]
+
+## Perspectives générales
+
+(Proposition théorique) Identifier et utiliser les forces ne suffit pas. La dynamique contextuelle doit être prise en compte. [@biswas-diener2011]
+
+
 
 </Text>
         </Document>
-        <Document ID="38265D2D-BDDB-451B-B2F4-72F2CEF1F3DA">
-            <Title>inclusion</Title>
+        <Document ID="CE1F9961-6785-47CE-9B78-73F9915DB862">
+            <Title>Climat de classe</Title>
+        </Document>
+        <Document ID="FDA2DECD-44DC-4E18-8EAC-9C8862D20D35">
+            <Title>Contexte</Title>
+            <Text># Contexte scolaire
+
+## Contexte légal
+
+## Contexte romand ou valaisan
+
+## Environnement ou voisinage pédagogique
+</Text>
+        </Document>
+        <Document ID="9E4794F4-1CAE-4864-87EB-9EB8844CC501">
+            <Title>Single case design</Title>
+            <Text># Single case design
+
+## Contexte de la pédagogie spécialisée
+
+(Méta-analyse) La formation des enseignants spécialisés doit être adaptée pour permettre au personnel d’implémenter les techniques efficaces. [@brock2017] </Text>
+        </Document>
+        <Document ID="612837B7-010B-4855-9B75-1607F0D0D203">
+            <Title>Inclusion</Title>
             <Text># Inclusion
-Salut
+
+## Contexte et cadrage large
+
+(HOT) Le terme d’inclusion s’impose dans le langage public à la place du terme intégration. L’inclusion scolaire implique une vision postnormative de l’éducation. [@ebersold2009]
+
+
+
+
 
 
 </Text>
         </Document>
         <Document ID="B8D07E63-8493-4235-8254-27A041380328">
             <Title>Contexte</Title>
-            <Text># Contexte
+            <Text># Contexte scolaire
 
-## Légal
+## Contexte légal
 
-Salut
+## Contexte romand ou valaisan
 
-## Pédagogie
+## Environnement ou voisinage pédagogique
 
-Bim
+## Formation des enseignant·es
+
+(Proposition théorique) Le travail à partir de la théorie ou les représentations ne convient pas. L’entrée resterait l’expérience. [@willingham2017]
+
+</Text>
+        </Document>
+        <Document ID="3CEFCDA3-5F0E-4A13-B066-34401AA4DE45">
+            <Title>PP</Title>
+            <Text># Psychologie positive
+
+## Définition et fondements
+
+## Controverses
+
+## A l’école
+</Text>
+        </Document>
+        <Document ID="FF96E1C6-1BF6-4859-B4D7-E0C2F990D57A">
+            <Title>preambule bookdown</Title>
+            <Text>---
+title: "Script du cadre théorique avec références"
+author: "Nicolas Bressoud"
+date: "octobre 2020"
+lang: fr
+toc-title: "Table des matières"
+output: 
+  bookdown::word_document2:
+    pandoc_args: [ "--csl", "apa.csl" ]
+    citation_package: none
+    toc: true
+    reference_docx: "template.docx"
+  bookdown::html_document2:
+    pandoc_args: [ "--csl", "apa.csl" ]
+    citation_package: none
+    toc: true
+  bookdown::pdf_document2:
+    citation_package: default
+    pandoc_args: [ "--csl", "apa.csl" ]
+    keep_tex: true
+bibliography: library_github.bib
+---
+
+
+
+# Biblio
+
+Biblio doit contenir les 4 références :
+Mais aussi voir pour faire la biblio d'office en entier à partir du fichier bibtex (bio CV).
+</Text>
+        </Document>
+        <Document ID="38265D2D-BDDB-451B-B2F4-72F2CEF1F3DA">
+            <Title>Inclusion</Title>
+            <Text># Inclusion
+
+## Contexte et cadrage large
+
+(HOT, revue théorique) Le terme d’inclusion s’impose dans le langage public à la place du terme intégration. L’inclusion scolaire implique une vision postnormative de l’éducation. [@ebersold2009]
+
+
+
+
+
+
 </Text>
         </Document>
     </Documents>
