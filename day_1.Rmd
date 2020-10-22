@@ -1,0 +1,136 @@
+---
+title: "Script du cadre théorique avec références"
+author: "Nicolas Bressoud"
+date: "octobre 2020"
+lang: fr
+toc-title: "Table des matières"
+output: 
+  bookdown::word_document2:
+    pandoc_args: [ "--csl", "apa.csl" ]
+    citation_package: none
+    toc: true
+    reference_docx: "template.docx"
+  bookdown::html_document2:
+    pandoc_args: [ "--csl", "apa.csl" ]
+    citation_package: none
+    toc: true
+  bookdown::pdf_document2:
+    citation_package: default
+    pandoc_args: [ "--csl", "apa.csl" ]
+    keep_tex: true
+bibliography: library_github.bib
+---
+
+
+
+# Biblio
+
+Biblio doit contenir les 4 références :
+Mais aussi voir pour faire la biblio d'office en entier à partir du fichier bibtex (bio CV).
+
+
+# Inclusion
+
+## Contexte et cadrage large
+
+(HOT, revue théorique) Le terme d’inclusion s’impose dans le langage public à la place du terme intégration. L’inclusion scolaire implique une vision postnormative de l’éducation. [@ebersold2009]
+
+
+
+
+
+
+
+
+# Bonheur, bien-être, etc
+
+## Bonheur, épistémologie, querelles
+
+(Revue théorique) Les querelles philosophiques autour de la notion de bonheur restent vives [Voir p.ex.@ferry2016].
+
+## Bien-être scolaire : définition et cadre
+
+
+
+# Forces de caractère
+
+*Fouiller le site VIA.*
+
+## En général
+
+
+## En contexte scolaire
+
+(Étude) En Autstralie, un coaching sur les forces développe l’engagement et l’espoir chez des jeunes de environ 10-11 ans. [@madden2011] 
+
+(HOT, revue de pratiques) The Good School. En Australie, chez les jeunes 12 ans et moins, différentes intégrations des forces sont présentées. Les chercheurs ne se proposent pas de mesurer les effets. [@white2015a]
+
+(Revue de pratiques) L’intégration des forces dans la vie scolaire est une pratique pertinente dans les écoles du XXIème siècle. [@lavy2020]
+
+## Perspectives générales
+
+(Proposition théorique) Identifier et utiliser les forces ne suffit pas. La dynamique contextuelle doit être prise en compte. [@biswas-diener2011]
+
+
+
+
+
+# Éducation positive
+
+## Contextualisation internationale ou bonnes pratiques
+
+
+
+# Besoins éducatifs particuliers
+
+## Contexte du handicap, vocabulaire, concepts
+
+(Proposition théorique) Dans cette approche biopsychosociale, la prise en compte du continuum processuel modifie nos conceptions de la notion de handicap mental et ne la résume pas à une limitation biologique. [@kinderman2005]
+
+## Environnement actuel
+
+# Psychologie positive
+
+## Définition et fondements
+
+## Controverses
+
+## Études de base
+
+(Étude) Le rôles des émotions positives est mis en évidence dans les changement cognitifs des programmes de psychologie positive. [@gander2018]
+
+## A l’école
+
+(Étude) Chez les adolescents, l’intégration des stratégies de régulation émotionnelles jouent un rôle prépondérant dans le développement du bien-être. [@burckhardt2016]
+
+
+# Climat de classe
+
+## Climat d’établissement et santé psychique
+
+## Relations et enjeux émotionnels avec l’enseignant·e
+
+(Proposition théorique) La manière dont les enseignant·es communiquent les émotions, particulièrement dans les petits degrés, est une question importante de la recherche. [@yelinek2017]
+
+(Étude) Chez les adolescents, une qualité de relation à l’enseignant·e prédit moins de problèmes de comportement et des attitudes prosociales. [@obsuth2017]
+
+## Gestion de classe
+
+(Méta-analyse) La gestion de classe influence les résultats des élèves, notamment sur les plans motivationnels et émotionnels. [@korpershoek2016]
+
+
+
+
+
+# Contexte scolaire
+
+## Contexte légal
+
+## Contexte romand ou valaisan
+
+## Environnement ou voisinage pédagogique
+
+## Formation des enseignant·es
+
+(Proposition théorique) Le travail à partir de la théorie ou les représentations ne convient pas. L’entrée resterait l’expérience. [@willingham2017]
+

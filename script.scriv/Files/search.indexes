@@ -133,6 +133,11 @@ Salut la vie (Shankland et al., 2018).
 
 ## Environnement actuel</Text>
         </Document>
+        <Document ID="27F70D29-9DC1-49B4-83AC-0A48139B97AB">
+            <Title>Analyse Multiniveaux</Title>
+            <Text># Analyse multiniveaux
+</Text>
+        </Document>
         <Document ID="7C0A3356-79A1-4981-81D8-878AC46C1F43">
             <Title>Valeur p</Title>
             <Text># Valeur p
@@ -140,11 +145,6 @@ Salut la vie (Shankland et al., 2018).
 (Proposition théorique) Les erreurs de conceptions autour de la valeur P sont fréquentes. [@goodman2008]
 
 
-</Text>
-        </Document>
-        <Document ID="27F70D29-9DC1-49B4-83AC-0A48139B97AB">
-            <Title>Analyse Multiniveaux</Title>
-            <Text># Analyse multiniveaux
 </Text>
         </Document>
         <Document ID="60E797F2-87AB-40FC-973B-E972450E6378">
@@ -188,17 +188,15 @@ Mais aussi voir pour faire la biblio d'office en entier à partir du fichier bib
 
 </Text>
         </Document>
-        <Document ID="6F3DCA6E-AF96-49F0-9012-D0E94881E38F">
-            <Title>Forces</Title>
-            <Text># Forces de caractère
+        <Document ID="FDA2DECD-44DC-4E18-8EAC-9C8862D20D35">
+            <Title>Contexte</Title>
+            <Text># Contexte scolaire
 
-## En général
+## Contexte légal
 
-## En contexte scolaire
+## Contexte romand ou valaisan
 
-(HOT) The Good School. En Australie, chez les jeunes 12 ans et moins, différentes intégrations des forces sont présentées. Les chercheurs ne se proposent pas de mesurer les effets. [@white2015a]
-
-## Perspectives actuelles
+## Environnement ou voisinage pédagogique
 </Text>
         </Document>
         <Document ID="DE4AF975-C2AC-4A8E-9299-4E7B57A47E86">
@@ -238,19 +236,21 @@ Mais aussi voir pour faire la biblio d'office en entier à partir du fichier bib
 
 </Text>
         </Document>
+        <Document ID="6F3DCA6E-AF96-49F0-9012-D0E94881E38F">
+            <Title>Forces</Title>
+            <Text># Forces de caractère
+
+## En général
+
+## En contexte scolaire
+
+(HOT) The Good School. En Australie, chez les jeunes 12 ans et moins, différentes intégrations des forces sont présentées. Les chercheurs ne se proposent pas de mesurer les effets. [@white2015a]
+
+## Perspectives actuelles
+</Text>
+        </Document>
         <Document ID="CE1F9961-6785-47CE-9B78-73F9915DB862">
             <Title>Climat de classe</Title>
-        </Document>
-        <Document ID="FDA2DECD-44DC-4E18-8EAC-9C8862D20D35">
-            <Title>Contexte</Title>
-            <Text># Contexte scolaire
-
-## Contexte légal
-
-## Contexte romand ou valaisan
-
-## Environnement ou voisinage pédagogique
-</Text>
         </Document>
         <Document ID="9E4794F4-1CAE-4864-87EB-9EB8844CC501">
             <Title>Single case design</Title>
