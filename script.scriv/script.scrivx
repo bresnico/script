@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="F190E3F8-C7D1-4132-A02B-913A952571CC" Version="2.0" Creator="SCRMAC-3.1.5-12258" Device="MBP-NBR" Author="Bressoud Nicolas" Modified="2020-10-22 17:07:20 +0200" ModID="F79A51E8-2C27-45B9-B869-5CD2B0CCCF96">
+<ScrivenerProject Identifier="F190E3F8-C7D1-4132-A02B-913A952571CC" Version="2.0" Creator="SCRMAC-3.1.5-12258" Device="MBP-NBR" Author="Bressoud Nicolas" Modified="2020-11-05 09:24:27 +0100" ModID="D0B47146-3434-4EC2-836C-B091503FFA7B">
     <Binder>
         <BinderItem UUID="CE1F9961-6785-47CE-9B78-73F9915DB862" Type="DraftFolder" Created="2020-10-22 09:38:38 +0200" Modified="2020-10-22 10:56:57 +0200">
             <Title>Script des notions</Title>
@@ -10,8 +10,21 @@
             <Children>
                 <BinderItem UUID="8F4D27B4-7BFF-435A-9EDB-BA5BF5196092" Type="Text" Created="2020-10-22 10:27:40 +0200" Modified="2020-10-22 10:43:41 +0200">
                     <Title>citations - rappel du code</Title>
+                    <MetaData>
+                        <IconFileName>Light Bulb</IconFileName>
+                    </MetaData>
                     <TextSettings>
                         <TextSelection>537,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="A3D37CB2-A555-4D78-98E8-E23164AD30AC" Type="Text" Created="2020-11-05 09:23:47 +0100" Modified="2020-11-05 09:23:57 +0100">
+                    <Title>Tentatives de fil rouge</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <IconFileName>Thought Bubble</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="60E797F2-87AB-40FC-973B-E972450E6378" Type="Text" Created="2020-10-22 09:57:37 +0200" Modified="2020-10-22 10:13:41 +0200">
@@ -92,7 +105,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>171,0</TextSelection>
+                        <TextSelection>297,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
             </Children>
@@ -320,14 +333,14 @@
     </StatusSettings>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2020-10-22 09:38:37 +0200" IgnoreDeadline="Yes">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2020-10-23 01:00:00 +0200" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="531" Characters="4240" Date="2020-10-22 17:06:32 +0200"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2020-11-06 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2020-11-05 09:22:35 +0100"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2020-10-22 09:38:37 +0200">
-        <DraftWordCount>531</DraftWordCount>
-        <DraftCharCount>4240</DraftCharCount>
-        <OtherWordCount>44</OtherWordCount>
-        <OtherCharCount>362</OtherCharCount>
+    <RecentWritingHistory Date="2020-11-05 00:00:00 +0100">
+        <DraftWordCount>0</DraftWordCount>
+        <DraftCharCount>0</DraftCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
     <PrintSettings PaperSize="595.275573,841.889771" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
 </ScrivenerProject>
