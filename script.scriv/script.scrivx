@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="F190E3F8-C7D1-4132-A02B-913A952571CC" Version="2.0" Creator="SCRMAC-3.1.5-12258" Device="MBP-NBR" Author="Bressoud Nicolas" Modified="2020-11-15 19:43:09 +0100" ModID="326A2B54-B05D-4EA1-B4D6-E5A00579FBCC">
+<ScrivenerProject Identifier="F190E3F8-C7D1-4132-A02B-913A952571CC" Version="2.0" Creator="SCRMAC-3.2-14343" Device="MBP-NBR" Author="Bressoud Nicolas" Modified="2020-11-19 10:32:14 +0100" ModID="92CE1F8B-896F-44CD-B634-C32AAA21454F">
     <Binder>
         <BinderItem UUID="CE1F9961-6785-47CE-9B78-73F9915DB862" Type="DraftFolder" Created="2020-10-22 09:38:38 +0200" Modified="2020-10-22 10:56:57 +0200">
             <Title>Script des notions</Title>
@@ -138,13 +138,13 @@
                         <TextSelection>203,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="27F70D29-9DC1-49B4-83AC-0A48139B97AB" Type="Text" Created="2020-10-22 14:37:03 +0200" Modified="2020-10-22 14:37:28 +0200">
+                <BinderItem UUID="27F70D29-9DC1-49B4-83AC-0A48139B97AB" Type="Text" Created="2020-10-22 14:37:03 +0200" Modified="2020-11-19 10:32:14 +0100">
                     <Title>Analyse Multiniveaux</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>23,0</TextSelection>
+                        <TextSelection>81,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
             </Children>
@@ -280,7 +280,7 @@
         </BinderItem>
     </Binder>
     <Collections>
-        <Collection Type="Binder" ID="98A8AD7E-7F5B-4446-9C18-1ED948DFDE4A" Color="0.150563 0.150563 0.150563">
+        <Collection Type="Binder" ID="98A8AD7E-7F5B-4446-9C18-1ED948DFDE4A" Color="0.112547 0.112547 0.112547">
             <Title>Classeur</Title>
         </Collection>
         <Collection Type="RecentSearch" ID="B3A3C3B6-092E-4CF9-B5BF-E5DB83E1C5B0" Color="0.190667 0.172702 0.216529">
@@ -333,14 +333,14 @@
     </StatusSettings>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2020-10-22 09:38:37 +0200" IgnoreDeadline="Yes">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2020-11-16 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2020-11-15 19:39:49 +0100"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2020-11-20 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2020-11-19 08:21:43 +0100"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2020-11-15 00:00:00 +0100">
+    <RecentWritingHistory Date="2020-11-19 00:00:00 +0100">
         <DraftWordCount>0</DraftWordCount>
         <DraftCharCount>0</DraftCharCount>
-        <OtherWordCount>0</OtherWordCount>
-        <OtherCharCount>0</OtherCharCount>
+        <OtherWordCount>8</OtherWordCount>
+        <OtherCharCount>58</OtherCharCount>
     </RecentWritingHistory>
-    <PrintSettings PaperSize="595.275573,841.889771" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
 </ScrivenerProject>
