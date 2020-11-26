@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="F190E3F8-C7D1-4132-A02B-913A952571CC" Version="2.0" Creator="SCRMAC-3.2-14343" Device="MBP-NBR" Author="Bressoud Nicolas" Modified="2020-11-19 15:36:27 +0100" ModID="B3F4C140-B67B-407C-98AB-53C1ED338351">
+<ScrivenerProject Identifier="F190E3F8-C7D1-4132-A02B-913A952571CC" Version="2.0" Creator="SCRMAC-3.2.1-14481" Device="MacBook-Pro-de-Nicolas" Author="" Modified="2020-11-26 09:20:06 +0100" ModID="7360BF6F-5F08-4AD1-9CE2-457547A1E6FB">
     <Binder>
         <BinderItem UUID="CE1F9961-6785-47CE-9B78-73F9915DB862" Type="DraftFolder" Created="2020-10-22 09:38:38 +0200" Modified="2020-10-22 10:56:57 +0200">
             <Title>Script des notions</Title>
@@ -33,7 +33,7 @@
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>560,0</TextSelection>
+                        <TextSelection>604,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="38265D2D-BDDB-451B-B2F4-72F2CEF1F3DA" Type="Text" Created="2020-10-22 09:38:38 +0200" Modified="2020-10-22 15:06:32 +0200">
@@ -333,14 +333,14 @@
     </StatusSettings>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2020-10-22 09:38:37 +0200" IgnoreDeadline="Yes">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2020-11-20 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2020-11-19 15:36:24 +0100"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2020-11-27 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="0" Characters="0" Date="2020-11-26 09:19:22 +0100"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2020-11-19 00:00:00 +0100">
+    <RecentWritingHistory Date="2020-11-26 00:00:00 +0100">
         <DraftWordCount>0</DraftWordCount>
         <DraftCharCount>0</DraftCharCount>
-        <OtherWordCount>8</OtherWordCount>
-        <OtherCharCount>58</OtherCharCount>
+        <OtherWordCount>0</OtherWordCount>
+        <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
     <PrintSettings PaperSize="595.275573,841.889771" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
 </ScrivenerProject>

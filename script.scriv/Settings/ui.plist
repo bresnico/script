@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>CompileFolder</key>
-	<string>/Users/nicolasbressoud/Documents/GitHub/script</string>
+	<string>/Users/nbr/Downloads</string>
 	<key>NotesScaleFactor</key>
 	<real>1</real>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {411, 1395}}</string>
-		<string>{{412, 0}, {862, 1395}}</string>
+		<string>{{0, 0}, {620, 1395}}</string>
+		<string>{{621, 0}, {1939, 1395}}</string>
 	</array>
 	<key>bookmarksSelectionInfo</key>
 	<dict>
@@ -127,14 +127,14 @@
 		<real>1</real>
 	</dict>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {431, 654.5}}</string>
+	<string>{{0, 0}, {620, 654.5}}</string>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
 		<key>textScaleFactor</key>
 		<real>2</real>
 	</dict>
 	<key>mainWindowFrame</key>
-	<string>212 275 1922 1023 0 0 2560 1415 </string>
+	<string>212 275 1922 1023 0 0 2560 1440 </string>
 	<key>supportingDocumentEditor.dockedQRTextSettings</key>
 	<dict>
 		<key>textScaleFactor</key>
