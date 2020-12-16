@@ -8,8 +8,8 @@
 	<real>1</real>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {620, 1395}}</string>
-		<string>{{621, 0}, {1939, 1395}}</string>
+		<string>{{0, 0}, {348.5, 814}}</string>
+		<string>{{349.5, 0}, {1090.5, 814}}</string>
 	</array>
 	<key>bookmarksSelectionInfo</key>
 	<dict>
@@ -117,7 +117,7 @@
 	</dict>
 	<key>inspectorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {512, 985}}</string>
+		<string>{{0, 0}, {288, 804}}</string>
 	</array>
 	<key>inspectorWidth</key>
 	<real>245</real>
@@ -127,7 +127,7 @@
 		<real>1</real>
 	</dict>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {620, 654.5}}</string>
+	<string>{{0, 269.75}, {537.5, 364}}</string>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
 		<key>textScaleFactor</key>
@@ -141,7 +141,7 @@
 		<real>1</real>
 	</dict>
 	<key>supportingDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {620, 294}}</string>
+	<string>{{0, 0}, {606, 294}}</string>
 	<key>supportingDocumentEditor.textEditorState</key>
 	<dict>
 		<key>textScaleFactor</key>
