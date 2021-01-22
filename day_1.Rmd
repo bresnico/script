@@ -4,21 +4,19 @@ author: "Nicolas Bressoud"
 date: "octobre 2020"
 lang: fr
 toc-title: "Table des matières"
+editor_options:
+  markdown:
+    wrap: sentence
 output: 
+  bookdown::pdf_document2:
+    keep_tex: true
+  bookdown::html_document2:
+    toc: true
   bookdown::word_document2:
-    pandoc_args: [ "--csl", "apa.csl" ]
-    citation_package: none
     toc: true
     reference_docx: "template.docx"
-  bookdown::html_document2:
-    pandoc_args: [ "--csl", "apa.csl" ]
-    citation_package: none
-    toc: true
-  bookdown::pdf_document2:
-    citation_package: default
-    pandoc_args: [ "--csl", "apa.csl" ]
-    keep_tex: true
 bibliography: library_github.bib
+csl: apa.csl
 ---
 
 
@@ -46,7 +44,7 @@ Mais aussi voir pour faire la biblio d'office en entier à partir du fichier bib
 
 ## Bonheur, épistémologie, querelles
 
-(Revue théorique) Les querelles philosophiques autour de la notion de bonheur restent vives [Voir p.ex.@ferry2016].
+(Revue théorique) Les querelles philosophiques autour de la notion de bonheur restent vives [Voir p.ex. @ferry2016].
 
 ## Bien-être scolaire : définition et cadre
 
