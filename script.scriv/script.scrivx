@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="F190E3F8-C7D1-4132-A02B-913A952571CC" Version="2.0" Creator="SCRMAC-3.2.1-14481" Device="MacBook-Pro-de-Nicolas" Author="" Modified="2020-12-11 18:03:45 +0100" ModID="CE7213BE-FAE3-469E-A37F-5BF7AFD438B8">
+<ScrivenerProject Identifier="F190E3F8-C7D1-4132-A02B-913A952571CC" Version="2.0" Creator="SCRMAC-3.2.2-14632" Device="MacBook-Pro-de-Nicolas" Author="" Modified="2021-02-04 10:59:03 +0100" ModID="705206B6-A357-458F-A369-3626A8DD2205">
     <Binder>
         <BinderItem UUID="CE1F9961-6785-47CE-9B78-73F9915DB862" Type="DraftFolder" Created="2020-10-22 09:38:38 +0200" Modified="2020-10-22 10:56:57 +0200">
             <Title>Script des notions</Title>
@@ -20,29 +20,28 @@
                 <BinderItem UUID="A3D37CB2-A555-4D78-98E8-E23164AD30AC" Type="Text" Created="2020-11-05 09:23:47 +0100" Modified="2020-11-05 09:23:57 +0100">
                     <Title>Tentatives de fil rouge</Title>
                     <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
                         <IconFileName>Thought Bubble</IconFileName>
                     </MetaData>
                     <TextSettings>
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="60E797F2-87AB-40FC-973B-E972450E6378" Type="Text" Created="2020-10-22 09:57:37 +0200" Modified="2020-10-22 10:13:41 +0200">
+                <BinderItem UUID="60E797F2-87AB-40FC-973B-E972450E6378" Type="Text" Created="2020-10-22 09:57:37 +0200" Modified="2021-02-04 10:55:56 +0100">
                     <Title>preambule bookdown</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>604,0</TextSelection>
+                        <TextSelection>190,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="38265D2D-BDDB-451B-B2F4-72F2CEF1F3DA" Type="Text" Created="2020-10-22 09:38:38 +0200" Modified="2020-10-22 15:06:32 +0200">
+                <BinderItem UUID="38265D2D-BDDB-451B-B2F4-72F2CEF1F3DA" Type="Text" Created="2020-10-22 09:38:38 +0200" Modified="2021-02-04 10:59:03 +0100">
                     <Title>Inclusion</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>64,0</TextSelection>
+                        <TextSelection>240,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="DE4AF975-C2AC-4A8E-9299-4E7B57A47E86" Type="Text" Created="2020-10-22 14:09:29 +0200" Modified="2020-10-22 15:07:02 +0200">
@@ -333,12 +332,12 @@
     </StatusSettings>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2020-10-22 09:38:37 +0200" IgnoreDeadline="Yes">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2020-12-12 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2020-12-11 18:03:33 +0100"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2021-02-05 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="-12" Characters="-189" Date="2021-02-04 10:50:25 +0100"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2020-12-11 00:00:00 +0100">
-        <DraftWordCount>0</DraftWordCount>
-        <DraftCharCount>0</DraftCharCount>
+    <RecentWritingHistory Date="2021-02-04 00:00:00 +0100">
+        <DraftWordCount>-12</DraftWordCount>
+        <DraftCharCount>-189</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>

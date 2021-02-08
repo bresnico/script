@@ -154,24 +154,19 @@ Article de Catherine Judd, Westfall Et Kenny
             <Text>---
 title: "Script du cadre théorique avec références"
 author: "Nicolas Bressoud"
-date: "octobre 2020"
+date: "janvier 2021"
 lang: fr
 toc-title: "Table des matières"
 output: 
   bookdown::word_document2:
-    pandoc_args: [ "--csl", "apa.csl" ]
-    citation_package: none
     toc: true
     reference_docx: "template.docx"
   bookdown::html_document2:
-    pandoc_args: [ "--csl", "apa.csl" ]
-    citation_package: none
     toc: true
   bookdown::pdf_document2:
-    citation_package: default
-    pandoc_args: [ "--csl", "apa.csl" ]
     keep_tex: true
-bibliography: library_github.bib
+bibliography: library_github_m1.bib
+csl: apa.csl
 ---
 
 
@@ -347,7 +342,6 @@ Mais aussi voir pour faire la biblio d'office en entier à partir du fichier bib
 ## Contexte et cadrage large
 
 (HOT, revue théorique) Le terme d’inclusion s’impose dans le langage public à la place du terme intégration. L’inclusion scolaire implique une vision postnormative de l’éducation. [@ebersold2009]
-
 
 
 

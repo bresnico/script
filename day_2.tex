@@ -1,0 +1,278 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  french,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Script du cadre théorique avec références},
+  pdfauthor={Nicolas Bressoud},
+  pdflang={fr},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\ifxetex
+  % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
+  \usepackage{polyglossia}
+  \setmainlanguage[]{french}
+\else
+  \usepackage[main=french]{babel}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\fi
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\title{Script du cadre théorique avec références}
+\author{Nicolas Bressoud}
+\date{janvier 2021}
+
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table des matières}
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\hypertarget{biblio}{%
+\section{Biblio}\label{biblio}}
+
+Biblio doit contenir les 4 références :
+Mais aussi voir pour faire la biblio d'office en entier à partir du fichier bibtex (bio CV).
+
+\hypertarget{inclusion}{%
+\section{Inclusion}\label{inclusion}}
+
+\hypertarget{contexte-et-cadrage-large}{%
+\subsection{Contexte et cadrage large}\label{contexte-et-cadrage-large}}
+
+(HOT, revue théorique) Le terme d'inclusion s'impose dans le langage public à la place du terme intégration. L'inclusion scolaire implique une vision postnormative de l'éducation. (Ebersold, 2009)
+
+\hypertarget{bonheur-bien-uxeatre-etc}{%
+\section{Bonheur, bien-être, etc}\label{bonheur-bien-uxeatre-etc}}
+
+\hypertarget{bonheur-uxe9pistuxe9mologie-querelles}{%
+\subsection{Bonheur, épistémologie, querelles}\label{bonheur-uxe9pistuxe9mologie-querelles}}
+
+(Revue théorique) Les querelles philosophiques autour de la notion de bonheur restent vives {[}Voir p.ex.@ferry2016{]}.
+
+\hypertarget{bien-uxeatre-scolaire-duxe9finition-et-cadre}{%
+\subsection{Bien-être scolaire : définition et cadre}\label{bien-uxeatre-scolaire-duxe9finition-et-cadre}}
+
+\hypertarget{forces-de-caractuxe8re}{%
+\section{Forces de caractère}\label{forces-de-caractuxe8re}}
+
+\emph{Fouiller le site VIA.}
+
+\hypertarget{en-guxe9nuxe9ral}{%
+\subsection{En général}\label{en-guxe9nuxe9ral}}
+
+\hypertarget{en-contexte-scolaire}{%
+\subsection{En contexte scolaire}\label{en-contexte-scolaire}}
+
+(Étude) En Autstralie, un coaching sur les forces développe l'engagement et l'espoir chez des jeunes de environ 10-11 ans. (Madden et al., 2011)
+
+(HOT, revue de pratiques) The Good School. En Australie, chez les jeunes 12 ans et moins, différentes intégrations des forces sont présentées. Les chercheurs ne se proposent pas de mesurer les effets. (White et al., 2015)
+
+(Revue de pratiques) L'intégration des forces dans la vie scolaire est une pratique pertinente dans les écoles du XXIème siècle. (Lavy, 2020)
+
+\hypertarget{perspectives-guxe9nuxe9rales}{%
+\subsection{Perspectives générales}\label{perspectives-guxe9nuxe9rales}}
+
+(Proposition théorique) Identifier et utiliser les forces ne suffit pas. La dynamique contextuelle doit être prise en compte. (Biswas-Diener et al., 2011)
+
+\hypertarget{uxe9ducation-positive}{%
+\section{Éducation positive}\label{uxe9ducation-positive}}
+
+\hypertarget{contextualisation-internationale-ou-bonnes-pratiques}{%
+\subsection{Contextualisation internationale ou bonnes pratiques}\label{contextualisation-internationale-ou-bonnes-pratiques}}
+
+\hypertarget{besoins-uxe9ducatifs-particuliers}{%
+\section{Besoins éducatifs particuliers}\label{besoins-uxe9ducatifs-particuliers}}
+
+\hypertarget{contexte-du-handicap-vocabulaire-concepts}{%
+\subsection{Contexte du handicap, vocabulaire, concepts}\label{contexte-du-handicap-vocabulaire-concepts}}
+
+(Proposition théorique) Dans cette approche biopsychosociale, la prise en compte du continuum processuel modifie nos conceptions de la notion de handicap mental et ne la résume pas à une limitation biologique. (Kinderman, 2005)
+
+\hypertarget{environnement-actuel}{%
+\subsection{Environnement actuel}\label{environnement-actuel}}
+
+\hypertarget{psychologie-positive}{%
+\section{Psychologie positive}\label{psychologie-positive}}
+
+\hypertarget{duxe9finition-et-fondements}{%
+\subsection{Définition et fondements}\label{duxe9finition-et-fondements}}
+
+\hypertarget{controverses}{%
+\subsection{Controverses}\label{controverses}}
+
+\hypertarget{uxe9tudes-de-base}{%
+\subsection{Études de base}\label{uxe9tudes-de-base}}
+
+(Étude) Le rôles des émotions positives est mis en évidence dans les changement cognitifs des programmes de psychologie positive. (Gander et al., 2018)
+
+\hypertarget{a-luxe9cole}{%
+\subsection{A l'école}\label{a-luxe9cole}}
+
+(Étude) Chez les adolescents, l'intégration des stratégies de régulation émotionnelles jouent un rôle prépondérant dans le développement du bien-être. (Burckhardt et al., 2016)
+
+\hypertarget{climat-de-classe}{%
+\section{Climat de classe}\label{climat-de-classe}}
+
+\hypertarget{climat-duxe9tablissement-et-santuxe9-psychique}{%
+\subsection{Climat d'établissement et santé psychique}\label{climat-duxe9tablissement-et-santuxe9-psychique}}
+
+\hypertarget{relations-et-enjeux-uxe9motionnels-avec-lenseignante}{%
+\subsection{Relations et enjeux émotionnels avec l'enseignant·e}\label{relations-et-enjeux-uxe9motionnels-avec-lenseignante}}
+
+(Proposition théorique) La manière dont les enseignant·es communiquent les émotions, particulièrement dans les petits degrés, est une question importante de la recherche. (Yelinek \& Grady, 2017)
+
+(Étude) Chez les adolescents, une qualité de relation à l'enseignant·e prédit moins de problèmes de comportement et des attitudes prosociales. (Obsuth et al., 2017)
+
+\hypertarget{gestion-de-classe}{%
+\subsection{Gestion de classe}\label{gestion-de-classe}}
+
+(Méta-analyse) La gestion de classe influence les résultats des élèves, notamment sur les plans motivationnels et émotionnels. (Korpershoek et al., 2016)
+
+\hypertarget{contexte-scolaire}{%
+\section{Contexte scolaire}\label{contexte-scolaire}}
+
+\hypertarget{contexte-luxe9gal}{%
+\subsection{Contexte légal}\label{contexte-luxe9gal}}
+
+\hypertarget{contexte-romand-ou-valaisan}{%
+\subsection{Contexte romand ou valaisan}\label{contexte-romand-ou-valaisan}}
+
+\hypertarget{environnement-ou-voisinage-puxe9dagogique}{%
+\subsection{Environnement ou voisinage pédagogique}\label{environnement-ou-voisinage-puxe9dagogique}}
+
+\hypertarget{formation-des-enseignantes}{%
+\subsection{Formation des enseignant·es}\label{formation-des-enseignantes}}
+
+(Proposition théorique) Le travail à partir de la théorie ou les représentations ne convient pas. L'entrée resterait l'expérience. (Willingham, 2017)
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\hypertarget{ref-biswas-diener2011}{}%
+Biswas-Diener, R., Kashdan, T. B., \& Minhas, G. (2011). A Dynamic Approach to Psychological Strength Development and Intervention. \emph{The Journal of Positive Psychology}, \emph{6}(2), 106‑118. \url{https://doi.org/10.1080/17439760.2010.545429}
+
+\leavevmode\hypertarget{ref-burckhardt2016}{}%
+Burckhardt, R., Manicavasagar, V., Batterham, P. J., \& Hadzi-Pavlovic, D. (2016). A Randomized Controlled Trial of Strong Minds: {A} School-Based Mental Health Program Combining Acceptance and Commitment Therapy and Positive Psychology. \emph{Journal of School Psychology}, \emph{57}, 41‑52. \url{https://doi.org/10.1016/j.jsp.2016.05.008}
+
+\leavevmode\hypertarget{ref-ebersold2009}{}%
+Ebersold, S. (2009).{} {Inclusion}{}. \emph{Recherche et Formation}, \emph{61}, 71‑83.
+
+\leavevmode\hypertarget{ref-gander2018}{}%
+Gander, F., Proyer, R. T., \& Ruch, W. (2018). A {Placebo}-{Controlled Online Study} on {Potential Mediators} of a {Pleasure}-{Based Positive Psychology Intervention}: {The Role} of {Emotional} and {Cognitive Components}. \emph{Journal of Happiness Studies}, \emph{19}(7), 2035‑2048. \url{https://doi.org/10.1007/s10902-017-9909-3}
+
+\leavevmode\hypertarget{ref-kinderman2005}{}%
+Kinderman, P. (2005). A Psychological Model of Mental Disorder. \emph{Harvard Review of Psychiatry}, \emph{13}(4), 206‑217. \url{https://doi.org/10.1080/10673220500243349}
+
+\leavevmode\hypertarget{ref-korpershoek2016}{}%
+Korpershoek, H., Harms, T., de Boer, H., van Kuijk, M., \& Doolaard, S. (2016). A {Meta}-{Analysis} of the {Effects} of {Classroom Management Strategies} and {Classroom Management Programs} on {Students Academic}, {Behavioral}, {Emotional}, and {Motivational Outcomes}. \emph{Review of Educational Research}, \emph{86}(3), 643‑680. \url{https://doi.org/10.3102/0034654315626799}
+
+\leavevmode\hypertarget{ref-lavy2020}{}%
+Lavy, S. (2020). A {Review} of {Character Strengths Interventions} in {Twenty}-{First}-{Century Schools}: Their {Importance} and {How} They Can Be {Fostered}. \emph{Applied Research in Quality of Life}, \emph{15}(2), 573‑596. \url{https://doi.org/10.1007/s11482-018-9700-6}
+
+\leavevmode\hypertarget{ref-madden2011}{}%
+Madden, W., Green, S., \& Grant, A. M. (2011). A Pilot Study Evaluating Strengths-Based Coaching for Primary School Students: {Enhancing} Engagement and Hope. \emph{International Coaching Psychology Review}, \emph{6}(1), 71‑83.
+
+\leavevmode\hypertarget{ref-obsuth2017}{}%
+Obsuth, I., Murray, A. L., Malti, T., Sulger, P., Ribeaud, D., \& Eisner, M. (2017). A {Non}-Bipartite {Propensity Score Analysis} of the {Effects} of {Teacher}-{Student Relationships} on {Adolescent Problem} and {Prosocial Behavior}. \emph{Journal of Youth and Adolescence}, \emph{46}(8), 1661‑1687. \url{https://doi.org/10.1007/s10964-016-0534-y}
+
+\leavevmode\hypertarget{ref-white2015a}{}%
+White, M. A., Murray, A. S., \& Seligman, M. E. P. (2015). \emph{Evidence-Based Approaches in Positive Education: Implementing a Strategic Framework for Well-Being in Schools}.
+
+\leavevmode\hypertarget{ref-willingham2017}{}%
+Willingham, D. T. (2017). A {Mental Model} of the {Learner} : {Teaching} the {Basic Science} of {Educational Psychology} to {Future Teachers}. \emph{Mind, Brain, and Education}, \emph{11}(4), 166‑175. \url{https://doi.org/10.1111/mbe.12155}
+
+\leavevmode\hypertarget{ref-yelinek2017}{}%
+Yelinek, J., \& Grady, J. S. (2017). {``{Show} Me Your Mad Faces!''} Preschool Teachers' Emotion Talk in the Classroom. \emph{Early Child Development and Care}, \emph{189}(7), 1063‑1071. \url{https://doi.org/10.1080/03004430.2017.1363740}
+
+\end{CSLReferences}
+
+\end{document}

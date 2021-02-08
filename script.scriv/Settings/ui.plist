@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>CompileFolder</key>
-	<string>/Users/nbr/Downloads</string>
+	<string>/Users/nbr/Documents/GitHub/script</string>
 	<key>NotesScaleFactor</key>
 	<real>1</real>
 	<key>binderSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {348.5, 814}}</string>
-		<string>{{349.5, 0}, {1090.5, 814}}</string>
+		<string>{{0, 0}, {349, 1395}}</string>
+		<string>{{350, 0}, {2210, 1395}}</string>
 	</array>
 	<key>bookmarksSelectionInfo</key>
 	<dict>
@@ -108,7 +108,7 @@
 	</dict>
 	<key>editorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {1410, 224}}</string>
+		<string>{{0, 0}, {928, 224}}</string>
 	</array>
 	<key>fullScreenTextEditorSettings</key>
 	<dict>
@@ -127,21 +127,21 @@
 		<real>1</real>
 	</dict>
 	<key>mainDocumentEditor.scrollRect</key>
-	<string>{{0, 269.75}, {537.5, 364}}</string>
+	<string>{{0, 0}, {620, 654.5}}</string>
 	<key>mainDocumentEditor.textEditorState</key>
 	<dict>
 		<key>textScaleFactor</key>
 		<real>2</real>
 	</dict>
 	<key>mainWindowFrame</key>
-	<string>212 275 1922 1023 0 0 2560 1440 </string>
+	<string>2560 1534 1440 842 0 0 2560 1415 </string>
 	<key>supportingDocumentEditor.dockedQRTextSettings</key>
 	<dict>
 		<key>textScaleFactor</key>
 		<real>1</real>
 	</dict>
 	<key>supportingDocumentEditor.scrollRect</key>
-	<string>{{0, 0}, {606, 294}}</string>
+	<string>{{0, 0}, {620, 294}}</string>
 	<key>supportingDocumentEditor.textEditorState</key>
 	<dict>
 		<key>textScaleFactor</key>
