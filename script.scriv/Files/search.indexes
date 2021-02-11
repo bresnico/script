@@ -23,15 +23,19 @@
 
 ## Définition et fondements
 
+(livre) La psychologie positive est en courant de recherche orienté vers le développement du fonctionnement. Il peut s’inscrire dans une culture humaniste [@shankland2018b ; @lecomte2012c ; @martin-krumm2011].
+
+(Livre) La psychologie positive ne saurait se réduire à une « science du positif ». Ce courant s’intéresse en profondeur au fonctionnement humain dans sa globalité. Par exemple, si l’optimisme a longtemps été considéré comme incontournable, l’étude du pessimisme et ses potentiels bienfaits est aussi présente [@norem2015].
+
 ## Controverses
 
 ## Études de base
 
-(Étude) Le rôles des émotions positives est mis en évidence dans les changement cognitifs des programmes de psychologie positive. [@gander2018]
+(Étude) Le rôles des émotions positives est mis en évidence dans les changements cognitifs des programmes de psychologie positive [@gander2018].
 
 ## A l’école
 
-(Étude) Chez les adolescents, l’intégration des stratégies de régulation émotionnelles jouent un rôle prépondérant dans le développement du bien-être. [@burckhardt2016]
+(Étude) Chez les adolescents, l’intégration des stratégies de régulation émotionnelles joue un rôle prépondérant dans le développement du bien-être [@burckhardt2016].
 </Text>
         </Document>
         <Document ID="E223A8F7-09D0-4436-BF71-5017907A5853">
@@ -42,17 +46,26 @@
 
 ## Relations et enjeux émotionnels avec l’enseignant·e
 
-(Proposition théorique) La manière dont les enseignant·es communiquent les émotions, particulièrement dans les petits degrés, est une question importante de la recherche. [@yelinek2017]
+(Proposition théorique) La manière dont les enseignant·es communiquent les émotions, particulièrement dans les petits degrés, est une question importante de la recherche [@yelinek2017].
 
-(Étude) Chez les adolescents, une qualité de relation à l’enseignant·e prédit moins de problèmes de comportement et des attitudes prosociales. [@obsuth2017]
+(Étude) Chez les adolescent·es, une qualité de relation à l’enseignant·e prédit moins de problèmes de comportement et des attitudes prosociales [@obsuth2017].
+
+(livre) La qualité de la relation à l’enseignant·e est bien reliée au bien-être et aux performances académiques. Sur ce dernier point, on peut consulter les travaux de synthèse de @hattie2019.
+
 
 ## Gestion de classe
 
-(Méta-analyse) La gestion de classe influence les résultats des élèves, notamment sur les plans motivationnels et émotionnels. [@korpershoek2016]
+(Méta-analyse) La gestion de classe influence les résultats des élèves, notamment sur les plans motivationnels et émotionnels [@korpershoek2016].
 
-
+(Livre) La gestion de classe peut se décomposer en 5 dimensions dont 4 constituent des mesures de prévention de l’indiscipline [@gaudreau2017].
 
 </Text>
+        </Document>
+        <Document ID="97FC3F7E-E935-4686-9D08-AF4EF728D80C">
+            <Title>Divers sympathiques</Title>
+            <Text>(Proposition) La culture de l’évaluation peut être repensée à la lumière de ce que l’on connaît de l’effet des tests. [@adesope2017]
+
+(Revue) L’UDL mérite notre attention. Ses propositions vont dans le sens de la flexibilisation de l’enseignement et l’adaptation aux différences. [@al-azawei2016]</Text>
         </Document>
         <Document ID="8F4D27B4-7BFF-435A-9EDB-BA5BF5196092">
             <Title>citations - rappel du code</Title>
@@ -127,9 +140,11 @@ Salut la vie (Shankland et al., 2018).
             <Title>BEP</Title>
             <Text># Besoins éducatifs particuliers
 
+(Livre) La démarche de projet pédagogique individuel reste une manière courante de travailler sur les singularités des situtations. Cette démarche est à voir essentiellement en tant que procédure de résolution de problèmes [@vianin2016].
+
 ## Contexte du handicap, vocabulaire, concepts
 
-(Proposition théorique) Dans cette approche biopsychosociale, la prise en compte du continuum processuel modifie nos conceptions de la notion de handicap mental et ne la résume pas à une limitation biologique. [@kinderman2005]
+(Proposition théorique) Dans cette approche biopsychosociale, la prise en compte du continuum processuel modifie nos conceptions de la notion de handicap mental et ne la résume pas à une limitation biologique [@kinderman2005].
 
 ## Environnement actuel</Text>
         </Document>
@@ -144,7 +159,7 @@ Article de Catherine Judd, Westfall Et Kenny
             <Title>Valeur p</Title>
             <Text># Valeur p
 
-(Proposition théorique) Les erreurs de conceptions autour de la valeur P sont fréquentes. [@goodman2008]
+(Proposition théorique) Les erreurs de conceptions autour de la valeur P sont fréquentes [@goodman2008].
 
 
 </Text>
@@ -167,21 +182,21 @@ output:
     keep_tex: true
 bibliography: library_github_m1.bib
 csl: apa.csl
----
-
-
-
-# Biblio
-
-Biblio doit contenir les 4 références :
-Mais aussi voir pour faire la biblio d'office en entier à partir du fichier bibtex (bio CV).
-</Text>
+---</Text>
         </Document>
         <Document ID="560F9661-1B5F-4F6E-A04D-F3FA7C261F23">
             <Title>Education positive</Title>
             <Text># Éducation positive
 
+En contexte anglophone, l’éducation positive constitue un domaine pédagogique très sérieux, objet de recherches intenses. Les pratiques pédagogiques proposées sont documentées par des publications scientifiques [@white2015c].
+
+
 ## Contextualisation internationale ou bonnes pratiques
+
+(livres) De nombreuses ressources existent pour proposer des interventions éducatives basées sur ce qu’une science du bien-être propose. Par exemple, @harle2017 ou @boniwell2018 consacrent des ouvrages francophones sur la question en mêlant conseils, pistes et éclairages théoriques.
+
+(Livre) Le terme éducation positive étant connoté, des auteurs n’hésitent pas à utliser d’autres termes [par exemple, @dini2016].
+
 
 </Text>
         </Document>
@@ -202,11 +217,13 @@ Mais aussi voir pour faire la biblio d'office en entier à partir du fichier bib
 
 ## Bonheur, épistémologie, querelles
 
-(Revue théorique) Les querelles philosophiques autour de la notion de bonheur restent vives [Voir p.ex.@ferry2016].
+(Revue théorique) Les querelles philosophiques autour de la notion de bonheur restent vives [voir, par exemple, @ferry2016].
+
+(livre) Bienveillance, bonheur ou bien-être semblent devenir des termes courant dans les discussions autour de l’école. Mais de quoi parle-t-on ? Si la bienveillance a une place certaine, elle doit être vue comme une attitude de reconnaissance et d’exigence. @Jellab2018 proposent un cadre et donne la parole à des personnes du terrain.
 
 ## Bien-être scolaire : définition et cadre
 
-</Text>
+Au niveau mondial, des chercheuses telles que @suldo2016a ont énormément contribué à démocratiser la notion de bien-être scolaire en proposant des programmes à large échelle.</Text>
         </Document>
         <Document ID="52B6D62D-8F88-49BE-B557-6197175A2D9A">
             <Title>Forces</Title>
@@ -216,19 +233,25 @@ Mais aussi voir pour faire la biblio d'office en entier à partir du fichier bib
 
 ## En général
 
+(Livre) Travailler sur les aspects positifs de l’individu n’est ni nouveau ni original. Parler de talent, d’aisance ou de « son » élément est au coeur des démarches de développement personnel [ voir par exemple @robinson2015].
+
+(Livre) La perspective systémique illustre bien en quoi le repérage et l’activation de ressources, au sein d’un réseau, peut faciliter une évolution favorable des relations [@curonici2014].  
 
 ## En contexte scolaire
 
-(Étude) En Autstralie, un coaching sur les forces développe l’engagement et l’espoir chez des jeunes de environ 10-11 ans. [@madden2011] 
+(Étude) En Austtralie, un coaching sur les forces développe l’engagement et l’espoir chez des jeunes de environ 10-11 ans [@madden2011].
 
-(HOT, revue de pratiques) The Good School. En Australie, chez les jeunes 12 ans et moins, différentes intégrations des forces sont présentées. Les chercheurs ne se proposent pas de mesurer les effets. [@white2015a]
+(HOT, revue de pratiques) The Good School. En Australie, chez les jeunes 12 ans et moins, différentes intégrations des forces sont présentées. Les chercheurs ne se proposent pas de mesurer les effets [@white2015a].
 
-(Revue de pratiques) L’intégration des forces dans la vie scolaire est une pratique pertinente dans les écoles du XXIème siècle. [@lavy2020]
+(Revue de pratiques) L’intégration des forces dans la vie scolaire est une pratique pertinente dans les écoles du XXIème siècle [@lavy2020].
 
 ## Perspectives générales
 
-(Proposition théorique) Identifier et utiliser les forces ne suffit pas. La dynamique contextuelle doit être prise en compte. [@biswas-diener2011]
+(Proposition théorique) Identifier et utiliser les forces ne suffit pas. La dynamique contextuelle doit être prise en compte [@biswas-diener2011].
 
+## Pratiques
+
+(Livre) Les pratiques concernant les forces sont nombreuses et variées [voir par exemple @niemiec2017b].
 
 
 </Text>
@@ -255,10 +278,13 @@ Mais aussi voir pour faire la biblio d'office en entier à partir du fichier bib
 
 ## Contexte de la pédagogie spécialisée
 
-(Méta-analyse) La formation des enseignants spécialisés doit être adaptée pour permettre au personnel d’implémenter les techniques efficaces. [@brock2017] </Text>
+(Méta-analyse) La formation des enseignant·es spécialisé·es doit être adaptée pour permettre au personnel d’implémenter les techniques efficaces [@brock2017].
+
+(livres) Le singe case design est une méthode statistique particulièrement intéressante dans le champ de la pédagogie spécialisée. Ce design n’est pas encore stabilisé mais les auteurs sont déjà très fins dans leur cadrage scientifique de la méthode [@kratochwill2014a ; @genoud2016].</Text>
         </Document>
         <Document ID="A3D37CB2-A555-4D78-98E8-E23164AD30AC">
             <Title>Tentatives de fil rouge</Title>
+            <Text>Day 3: Découvrez le pouvoir positif du pessimisme. Inclus.</Text>
         </Document>
         <Document ID="612837B7-010B-4855-9B75-1607F0D0D203">
             <Title>Inclusion</Title>
@@ -285,9 +311,19 @@ Mais aussi voir pour faire la biblio d'office en entier à partir du fichier bib
 
 ## Environnement ou voisinage pédagogique
 
+(livre) Les débats et transformations scolaires rythment la vie de nos élèves. En reconnaissant l’impact des personnes ayant fondé des courants forts, les chercheurs actuellement contextualisent toujours leur travaux. Par exemple, @houde2018a a réalisé un exercice intéressant en liant neurosciences et grands courants pédagogiques classiques.
+
+(Livre) La pleine conscience entre aussi dans les écoles avec des intentions louables, augmenter le bien-être [voir, par exemple, @kotsou2018].
+
+(Livre) Une meilleure connaissance de nos biais cognitifs et mécanismes attentionnels ouvre des perspectives enthousiasmantes [@kahneman2015].
+
+(Livre) La méthode scientifique et les apports, en particulier, des sciences cognitives, permettent une prise de recul nouvelle sur les habitudes pédagogiques [@brown2016].
+
+(Livre) Des tentatives plus ou moins heureuses de connecter les pratiques, théories, croyances pédagogiques avec des sciences plus dures existent avec plus ou moins de réussite [voir par exemple @sousa2013].
+
 ## Formation des enseignant·es
 
-(Proposition théorique) Le travail à partir de la théorie ou les représentations ne convient pas. L’entrée resterait l’expérience. [@willingham2017]
+(Proposition théorique) Le travail à partir de la théorie ou les représentations ne convient pas. L’entrée resterait l’expérience [@willingham2017].
 
 </Text>
         </Document>
@@ -341,10 +377,16 @@ Mais aussi voir pour faire la biblio d'office en entier à partir du fichier bib
 
 ## Contexte et cadrage large
 
-(HOT, revue théorique) Le terme d’inclusion s’impose dans le langage public à la place du terme intégration. L’inclusion scolaire implique une vision postnormative de l’éducation. [@ebersold2009]
+(HOT, revue théorique) Le terme d’inclusion s’impose dans le langage public à la place du terme intégration. L’inclusion scolaire implique une vision postnormative de l’éducation [@ebersold2009].
+
+## Inclure c’est différencier
+
+(livre) Si l’inclusion appelle à une prise en compte des différences, il s’agit de prendre en compte la capacité du système scolaire à s’adapter. Cette question occupe les chercheurs ou penseurs en éducation depuis de nombreuses années à partir d’un autre cadre de référence. @philippeperrenoud2012 fait partie des personnes francophones qui ont fortement influencé et augmenté notre compréhension du fonctionnement scolaire et des ses caractéristiques normalisantes.
 
 
+## Pratiques
 
+(Livre) Les pratiques liées à l’inclusion scolaire sont variées et peu équivalentes en termes de qualité. Des auteurs comme par exemple @tremblay2012 proposent des revues intéressantes des pratiques courantes.
 
 
 </Text>

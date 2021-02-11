@@ -2,5 +2,6 @@
 <WritingHistory>
     <Day dwc="531" dcc="4240" owc="44" occ="362">2020-10-22</Day>
     <Day dwc="0" dcc="0" owc="8" occ="58">2020-11-19</Day>
-    <Day dwc="-12" dcc="-189" owc="0" occ="0">2021-02-04</Day>
+    <Day dwc="-12" dcc="-189" dtwc="0" owc="0" occ="0" dtcc="0">2021-02-04</Day>
+    <Day dwc="595" dcc="4411" owc="91" occ="643">2021-02-11</Day>
 </WritingHistory>

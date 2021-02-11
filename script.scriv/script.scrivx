@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="F190E3F8-C7D1-4132-A02B-913A952571CC" Version="2.0" Creator="SCRMAC-3.2.2-14632" Device="MacBook-Pro-de-Nicolas" Author="" Modified="2021-02-04 10:59:03 +0100" ModID="705206B6-A357-458F-A369-3626A8DD2205">
+<ScrivenerProject Identifier="F190E3F8-C7D1-4132-A02B-913A952571CC" Version="2.0" Creator="SCRMAC-3.2.2-14632" Device="MacBook-Pro-de-Nicolas" Author="" Modified="2021-02-11 16:02:37 +0100" ModID="DBDC0D02-AB95-47AB-862F-407A48920CCF">
     <Binder>
         <BinderItem UUID="CE1F9961-6785-47CE-9B78-73F9915DB862" Type="DraftFolder" Created="2020-10-22 09:38:38 +0200" Modified="2020-10-22 10:56:57 +0200">
             <Title>Script des notions</Title>
@@ -17,94 +17,94 @@
                         <TextSelection>537,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="A3D37CB2-A555-4D78-98E8-E23164AD30AC" Type="Text" Created="2020-11-05 09:23:47 +0100" Modified="2020-11-05 09:23:57 +0100">
+                <BinderItem UUID="A3D37CB2-A555-4D78-98E8-E23164AD30AC" Type="Text" Created="2020-11-05 09:23:47 +0100" Modified="2021-02-11 16:02:24 +0100">
                     <Title>Tentatives de fil rouge</Title>
                     <MetaData>
                         <IconFileName>Thought Bubble</IconFileName>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>0,0</TextSelection>
+                        <TextSelection>58,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="60E797F2-87AB-40FC-973B-E972450E6378" Type="Text" Created="2020-10-22 09:57:37 +0200" Modified="2021-02-04 10:55:56 +0100">
+                <BinderItem UUID="60E797F2-87AB-40FC-973B-E972450E6378" Type="Text" Created="2020-10-22 09:57:37 +0200" Modified="2021-02-11 10:09:47 +0100">
                     <Title>preambule bookdown</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>190,0</TextSelection>
+                        <TextSelection>371,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="38265D2D-BDDB-451B-B2F4-72F2CEF1F3DA" Type="Text" Created="2020-10-22 09:38:38 +0200" Modified="2021-02-04 10:59:03 +0100">
+                <BinderItem UUID="38265D2D-BDDB-451B-B2F4-72F2CEF1F3DA" Type="Text" Created="2020-10-22 09:38:38 +0200" Modified="2021-02-11 14:06:35 +0100">
                     <Title>Inclusion</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>240,0</TextSelection>
+                        <TextSelection>738,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="DE4AF975-C2AC-4A8E-9299-4E7B57A47E86" Type="Text" Created="2020-10-22 14:09:29 +0200" Modified="2020-10-22 15:07:02 +0200">
+                <BinderItem UUID="DE4AF975-C2AC-4A8E-9299-4E7B57A47E86" Type="Text" Created="2020-10-22 14:09:29 +0200" Modified="2021-02-11 14:29:52 +0100">
                     <Title>Bonheur</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>83,0</TextSelection>
+                        <TextSelection>748,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="52B6D62D-8F88-49BE-B557-6197175A2D9A" Type="Text" Created="2020-10-22 09:41:15 +0200" Modified="2020-10-22 17:05:35 +0200">
+                <BinderItem UUID="52B6D62D-8F88-49BE-B557-6197175A2D9A" Type="Text" Created="2020-10-22 09:41:15 +0200" Modified="2021-02-11 15:16:54 +0100">
                     <Title>Forces</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>544,0</TextSelection>
+                        <TextSelection>480,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="560F9661-1B5F-4F6E-A04D-F3FA7C261F23" Type="Text" Created="2020-10-22 14:20:56 +0200" Modified="2020-10-22 14:29:51 +0200">
+                <BinderItem UUID="560F9661-1B5F-4F6E-A04D-F3FA7C261F23" Type="Text" Created="2020-10-22 14:20:56 +0200" Modified="2021-02-11 15:13:40 +0100">
                     <Title>Education positive</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>79,0</TextSelection>
+                        <TextSelection>314,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="F46F8AC6-7EB8-41A4-962B-B52C49CFF1AF" Type="Text" Created="2020-10-22 09:41:29 +0200" Modified="2020-10-22 16:57:00 +0200">
+                <BinderItem UUID="F46F8AC6-7EB8-41A4-962B-B52C49CFF1AF" Type="Text" Created="2020-10-22 09:41:29 +0200" Modified="2021-02-11 13:57:48 +0100">
                     <Title>BEP</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>309,0</TextSelection>
+                        <TextSelection>436,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="14C155DF-48CB-479A-BCC6-8AA8A77B7E58" Type="Text" Created="2020-10-22 09:41:41 +0200" Modified="2020-10-22 17:00:07 +0200">
+                <BinderItem UUID="14C155DF-48CB-479A-BCC6-8AA8A77B7E58" Type="Text" Created="2020-10-22 09:41:41 +0200" Modified="2021-02-11 15:45:28 +0100">
                     <Title>PP</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>416,0</TextSelection>
+                        <TextSelection>604,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="E223A8F7-09D0-4436-BF71-5017907A5853" Type="Text" Created="2020-10-22 09:41:45 +0200" Modified="2020-10-22 16:46:25 +0200">
+                <BinderItem UUID="E223A8F7-09D0-4436-BF71-5017907A5853" Type="Text" Created="2020-10-22 09:41:45 +0200" Modified="2021-02-11 14:26:12 +0100">
                     <Title>Climat de classe</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>317,0</TextSelection>
+                        <TextSelection>663,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="B8D07E63-8493-4235-8254-27A041380328" Type="Text" Created="2020-10-22 09:43:14 +0200" Modified="2020-10-22 15:07:12 +0200">
+                <BinderItem UUID="B8D07E63-8493-4235-8254-27A041380328" Type="Text" Created="2020-10-22 09:43:14 +0200" Modified="2021-02-11 14:28:14 +0100">
                     <Title>Contexte</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>297,0</TextSelection>
+                        <TextSelection>1130,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
             </Children>
@@ -119,22 +119,22 @@
                 <TextSelection>0,0</TextSelection>
             </TextSettings>
             <Children>
-                <BinderItem UUID="7C0A3356-79A1-4981-81D8-878AC46C1F43" Type="Text" Created="2020-10-22 14:35:33 +0200" Modified="2020-10-22 15:15:47 +0200">
+                <BinderItem UUID="7C0A3356-79A1-4981-81D8-878AC46C1F43" Type="Text" Created="2020-10-22 14:35:33 +0200" Modified="2021-02-11 11:31:56 +0100">
                     <Title>Valeur p</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>119,0</TextSelection>
+                        <TextSelection>116,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="9E4794F4-1CAE-4864-87EB-9EB8844CC501" Type="Text" Created="2020-10-22 14:36:48 +0200" Modified="2020-10-22 15:06:26 +0200">
+                <BinderItem UUID="9E4794F4-1CAE-4864-87EB-9EB8844CC501" Type="Text" Created="2020-10-22 14:36:48 +0200" Modified="2021-02-11 14:03:45 +0100">
                     <Title>Single case design</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>203,0</TextSelection>
+                        <TextSelection>230,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
                 <BinderItem UUID="27F70D29-9DC1-49B4-83AC-0A48139B97AB" Type="Text" Created="2020-10-22 14:37:03 +0200" Modified="2020-11-19 10:32:14 +0100">
@@ -154,6 +154,27 @@
                 <IncludeInCompile>Yes</IncludeInCompile>
                 <IconFileName>Eye</IconFileName>
             </MetaData>
+        </BinderItem>
+        <BinderItem UUID="F0FF09E6-45BA-4E0D-87EE-5D5842C0F25C" Type="Folder" Created="2021-02-11 11:00:41 +0100" Modified="2021-02-11 11:00:47 +0100">
+            <Title>Divers</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+                <IconFileName>Musical Notes</IconFileName>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+            <Children>
+                <BinderItem UUID="97FC3F7E-E935-4686-9D08-AF4EF728D80C" Type="Text" Created="2021-02-11 11:00:07 +0100" Modified="2021-02-11 11:03:42 +0100">
+                    <Title>Divers sympathiques</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>279,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
         </BinderItem>
         <BinderItem UUID="FD0EC019-3E20-432B-8478-856A934BBE38" Type="TrashFolder" Created="2020-10-22 09:38:38 +0200" Modified="2020-10-22 09:38:38 +0200">
             <Title>Corbeille</Title>
@@ -332,14 +353,14 @@
     </StatusSettings>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2020-10-22 09:38:37 +0200" IgnoreDeadline="Yes">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2021-02-05 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="-12" Characters="-189" Date="2021-02-04 10:50:25 +0100"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2021-02-12 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="595" Characters="4411" Date="2021-02-11 10:07:22 +0100"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2021-02-04 00:00:00 +0100">
-        <DraftWordCount>-12</DraftWordCount>
-        <DraftCharCount>-189</DraftCharCount>
-        <OtherWordCount>0</OtherWordCount>
-        <OtherCharCount>0</OtherCharCount>
+    <RecentWritingHistory Date="2021-02-11 00:00:00 +0100">
+        <DraftWordCount>595</DraftWordCount>
+        <DraftCharCount>4411</DraftCharCount>
+        <OtherWordCount>91</OtherWordCount>
+        <OtherCharCount>643</OtherCharCount>
     </RecentWritingHistory>
     <PrintSettings PaperSize="595.275573,841.889771" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"/>
 </ScrivenerProject>
