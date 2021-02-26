@@ -1,0 +1,230 @@
+---
+title: "Script du cadre théorique avec références"
+author: "Nicolas Bressoud"
+date: "janvier 2021"
+lang: fr
+toc-title: "Table des matières"
+output: 
+  bookdown::pdf_document2:
+    keep_tex: true
+  bookdown::html_document2:
+    toc: true
+  bookdown::word_document2:
+    toc: true
+    reference_docx: "template.docx"
+bibliography: library_github_m1.bib
+csl: apa.csl
+---
+
+# Inclusion
+
+## Contexte et cadrage large
+
+(HOT, revue théorique) Le terme d’inclusion s’impose dans le langage public à la place du terme intégration. L’inclusion scolaire implique une vision postnormative de l’éducation [@ebersold2009].
+
+(Article) Reconnaître la diversité à l’école c’est avoir à choisir entre inclure ou exclure [@prudhomme2012].
+
+## Inclure c’est différencier
+
+(livre) Si l’inclusion appelle à une prise en compte des différences, il s’agit de prendre en compte la capacité du système scolaire à s’adapter. Cette question occupe les chercheurs ou penseurs en éducation depuis de nombreuses années à partir d’un autre cadre de référence. @philippeperrenoud2012 fait partie des personnes francophones qui ont fortement influencé et augmenté notre compréhension du fonctionnement scolaire et des ses caractéristiques normalisantes.
+
+## Pratiques
+
+(Livre) Les pratiques liées à l’inclusion scolaire sont variées et peu équivalentes en termes de qualité. Des auteurs comme par exemple @tremblay2012 proposent des revues intéressantes des pratiques courantes.
+
+(Livre) L’inclusion scolaire implique des pratiques et compétences pédagogiques bien identifiées [@prudhomme2017].
+
+
+
+# Bonheur, bien-être, etc
+
+## Bonheur, épistémologie, querelles
+
+(Revue théorique) Les querelles philosophiques autour de la notion de bonheur restent vives [voir, p.ex. @ferry2016a].
+
+(livre) Bienveillance, bonheur ou bien-être semblent devenir des termes courant dans les discussions autour de l’école. Mais de quoi parle-t-on ? Si la bienveillance a une place certaine, elle doit être vue comme une attitude de reconnaissance et d’exigence. @jellab2018 proposent un cadre et donne la parole à des personnes du terrain.
+
+(Livre) Le bonheur est lié à la notion d’épanouissement. En psychologie positive, un ouvrage-phare est celui de Seligman [-@seligman2013a].
+
+## Bien-être scolaire : définition et cadre
+
+Au niveau mondial, des chercheuses telles que @suldo2016a ont énormément contribué à démocratiser la notion de bien-être scolaire en proposant des programmes à large échelle.
+
+Dans le contexte francophone, thématiser sur le bien-être scolaire n’est plus réservé à une niche [@rousseau2018].
+
+(Étude, validation) En France, par exemple, le développement de nouvelles mesures permet d’évaluer le bien-être scolaire sous l’angle du développement des compétences psychosociales [@encinar2017].
+
+(Étude, validation) Disposant d’objets de recherches convergents avec la psychologie positive, les sciences affectives proposent aussi de mieux comprendre le rôle des émotions de l’enfant dans ses performances scolaires [voir p.ex. @pekrun2017].
+
+(Étude) Des études parviennent à mieux cernes les émotions qui vont jouer un rôle favorable aux apprentissage [p.ex. @blanc2018].
+
+(Proposition théorique) Une opérationnalisation de la notion de bienveillance en contexte scolaire permet de mieux saisir en quoi la psychologie positive peut être perçue comme un courant de ressources pratiques [@shankland2018a].
+
+
+
+# Forces de caractère
+
+*Fouiller le site VIA.*
+
+## En général
+
+(Livre) La classification la plus célèbre des forces et celle de Peterson et Seligman [-@peterson2004].
+
+(Livre) L’enjeu est fondamental puisqu’il ne s’agit rien de moins que de changer de point de vue dans un monde obsédé par les faiblesses, les problèmes, les difficultés [@waters2017].
+
+(Livre) Travailler sur les aspects positifs de l’individu n’est ni nouveau ni original. Parler de talent, d’aisance ou de « son » élément est au coeur des démarches de développement personnel [ voir par exemple @robinson2015].
+
+(Livre) La perspective systémique illustre bien en quoi le repérage et l’activation de ressources, au sein d’un réseau, peut faciliter une évolution favorable des relations [@curonici2014].  
+
+(Livre) Les forces de caractère sont un champ de recherche et de pratiques prometteuses en ce qui concerne le bien-être et l’épanouissement [@niemiec2019a].
+
+(Livre) des pratiques pour les parents et familles existent et sont traduites depuis peu en français [voir p.ex. @waters2019].
+
+## En contexte scolaire
+
+(Étude) En Australie, un coaching sur les forces développe l’engagement et l’espoir chez des jeunes de environ 10-11 ans [@madden2011].
+
+(HOT, revue de pratiques) The Good School. En Australie, chez les jeunes 12 ans et moins, différentes intégrations des forces sont présentées. Les chercheurs ne se proposent pas de mesurer les effets [@white2015a].
+
+(Revue de pratiques) L’intégration des forces dans la vie scolaire est une pratique pertinente dans les écoles du XXIème siècle [@lavy2020].
+
+(Livre) Les approches centrées sur les ressources proposent une alternative à l’ennui scolaire [@holmgren2019].
+
+(Étude) Les rôles dans la classe ont un impact dans la scolarisation des personnes. L’humour, par exemple, en tant que force peut avoir des avantages mais des effets pervers [ @ruch2014; @wagner2019a].
+
+
+## En contexte d’éducation spécialisée
+
+(HOT, Livre) Les pratiques pour travailler les forces avec des jeunes en situation de handicap existent et sont sous le radar des équipes de recherche [@wehmeyer2019a].
+
+## Perspectives générales
+
+(Proposition théorique) Identifier et utiliser les forces ne suffit pas. La dynamique contextuelle doit être prise en compte [@biswas-diener2011].
+
+(Étude) Des développements importants ont lieu actuellement pour mieux comprendre la stabilité des forces dans le temps et leur granularité ainsi que leur connexion aux 6 valeurs de base [@ruch2019a].
+
+## Pratiques
+
+(Livre) Les pratiques concernant les forces sont nombreuses et variées [voir par exemple @niemiec2017b].
+
+
+
+
+# Éducation positive
+
+En contexte anglophone, l’éducation positive constitue un domaine pédagogique très sérieux, objet de recherches intenses. Les pratiques pédagogiques proposées sont documentées par des publications scientifiques [@white2015c].
+
+(Article théorique) La bienveillance ne peut être vue comme un effet de mode [@chalmel2018].
+
+## Contextualisation internationale ou bonnes pratiques
+
+(livres) De nombreuses ressources existent pour proposer des interventions éducatives basées sur ce qu’une science du bien-être propose. Par exemple, @harle2017 ou @boniwell2018 consacrent des ouvrages francophones sur la question en mêlant conseils, pistes et éclairages théoriques.
+
+(Livre) Le terme éducation positive étant connoté, des auteurs n’hésitent pas à utliser d’autres termes [par exemple, @dini2016].
+
+(Livre) On retrouve des ouvrages de grande qualité qui parviennent à faire le pont entre recherche académique et pratiques à portée des parents [p.ex. @cretin2014 ; @sander2015].
+
+(Étude) On sait que la perception des étudiants, par exemple, de bien apprendre n’est pas forcément liée à leurs apprentissages réels [@deslauriers2019].
+
+## Éducation positive et enseignement spécialisé
+
+Rushton, Giallo et Efron [-@rushton2019] ont indiqué le lien entre diagnostic de déficit d’attention et vécu émotionnel à l’école, en pointant le rôle modérateur de la relation maître-élève.
+
+
+
+
+
+
+# Besoins éducatifs particuliers
+
+(Livre) La démarche de projet pédagogique individuel reste une manière courante de travailler sur les singularités des situtations. Cette démarche est à voir essentiellement en tant que procédure de résolution de problèmes [@vianin2016].
+
+## Contexte du handicap, vocabulaire, concepts
+
+(Proposition théorique) Dans cette approche biopsychosociale, la prise en compte du continuum processuel modifie nos conceptions de la notion de handicap mental et ne la résume pas à une limitation biologique [@kinderman2005].
+
+## Environnement actuel
+
+(Livre) L’approche orientée sur les besoins est bien développée, notamment avec les forces [@wehmeyer2019a].
+
+# Psychologie positive
+
+## Définition et fondements
+
+(livre) La psychologie positive est en courant de recherche orienté vers le développement du fonctionnement. Il peut s’inscrire dans une culture humaniste [@shankland2018b ; @lecomte2012c ; @martin-krumm2011].
+
+(Livre) La psychologie positive ne saurait se réduire à une « science du positif ». Ce courant s’intéresse en profondeur au fonctionnement humain dans sa globalité. Par exemple, si l’optimisme a longtemps été considéré comme incontournable, l’étude du pessimisme et ses potentiels bienfaits est aussi présente [@norem2015].
+
+## Controverses
+
+## Études de base
+
+(Étude) Le rôles des émotions positives est mis en évidence dans les changements cognitifs des programmes de psychologie positive [@gander2018].
+
+## A l’école
+
+(Étude) Chez les adolescents, l’intégration des stratégies de régulation émotionnelles joue un rôle prépondérant dans le développement du bien-être [@burckhardt2016].
+
+
+# Climat de classe
+
+## Climat d’établissement et santé psychique
+
+(Livre) Des pratiques se démarquent et concerne les activités de gratitude [voir p.ex. @shankland2016a].
+
+## Relations et enjeux émotionnels avec l’enseignant·e
+
+(Proposition théorique) La manière dont les enseignant·es communiquent les émotions, particulièrement dans les petits degrés, est une question importante de la recherche [@yelinek2017].
+
+(Étude) Chez les adolescent·es, une qualité de relation à l’enseignant·e prédit moins de problèmes de comportement et des attitudes prosociales [@obsuth2017].
+
+(livre) La qualité de la relation à l’enseignant·e est bien reliée au bien-être et aux performances académiques. Sur ce dernier point, on peut consulter les travaux de synthèse de @hattie2019.
+
+
+## Gestion de classe
+
+(Méta-analyse) La gestion de classe influence les résultats des élèves, notamment sur les plans motivationnels et émotionnels [@korpershoek2016].
+
+(Livre) La gestion de classe peut se décomposer en 5 dimensions dont 4 constituent des mesures de prévention de l’indiscipline [@gaudreau2017].
+
+(Livre) La prévention reste un élément-clé et beaucoup de pratiques basées sur les données de recherche sont promues [voir p.ex. @hulac2017a ; @bissonnette2017 ; @blin2009].
+
+(livre) La discipline positive [@nelsen2014] entre en force en France et en Suisse avec un recueil important de pratiques basées en particulier sur les besoins d’appartenance de chaque enfant.
+
+(Livre) Classiquement, les mesures répressives de type « punition » sont connues comme inefficaces et, peu à peu, des approches alternatives innovantes apparaissent [@debarbieux2018].
+
+(Article, validation) Le SEP des enseignants semble être un bon indicateur des risques en gestion de classe [@gaudreau2016].
+
+
+
+
+
+
+
+
+
+
+# Contexte scolaire
+
+## Contexte légal
+
+## Contexte romand ou valaisan
+
+## Environnement ou voisinage pédagogique
+
+(livre) Les débats et transformations scolaires rythment la vie de nos élèves. En reconnaissant l’impact des personnes ayant fondé des courants forts, les chercheurs actuellement contextualisent toujours leur travaux. Par exemple, @houde2018a a réalisé un exercice intéressant en liant neurosciences et grands courants pédagogiques classiques.
+
+(Livre) La pleine conscience entre aussi dans les écoles avec des intentions louables, augmenter le bien-être [voir, par exemple, @kotsou2018].
+
+(Livre) Une meilleure connaissance de nos biais cognitifs et mécanismes attentionnels ouvre des perspectives enthousiasmantes [@kahneman2015].
+
+(Livre) La méthode scientifique et les apports, en particulier, des sciences cognitives, permettent une prise de recul nouvelle sur les habitudes pédagogiques [@brown2016].
+
+(Livre) Des tentatives plus ou moins heureuses de connecter les pratiques, théories, croyances pédagogiques avec des sciences plus dures existent avec plus ou moins de réussite [voir par exemple @sousa2013].
+
+
+
+## Formation des enseignant·es
+
+(Proposition théorique) Le travail à partir de la théorie ou les représentations ne convient pas. L’entrée resterait l’expérience [@willingham2017].
+
