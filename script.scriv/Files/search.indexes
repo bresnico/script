@@ -29,13 +29,19 @@
 
 ## Controverses
 
+(Méta-analyses, HOT) Les réplications ou corrections statistiques pondèrent la taille d’effet des interventions de psychologie positive [@white2019].
+
 ## Études de base
 
 (Étude) Le rôles des émotions positives est mis en évidence dans les changements cognitifs des programmes de psychologie positive [@gander2018].
 
-## A l’école
+## A l’école (voir aussi : éducation positive)
+
+(Étude, HOT) Le bien-être subjectif des enfants est impacté par les pratiques de psychologie positive [@roth2017].
 
 (Étude) Chez les adolescents, l’intégration des stratégies de régulation émotionnelles joue un rôle prépondérant dans le développement du bien-être [@burckhardt2016].
+
+(Étude) Des progrès sont observés dans la satisfaction de vie des élèves malgré la grande variabilité dûe aux changement biologiques et environnementaux de leur classe d’âge [@suldo2014].
 </Text>
         </Document>
         <Document ID="97FC3F7E-E935-4686-9D08-AF4EF728D80C">
@@ -67,7 +73,7 @@
 
 (Livre) La gestion de classe peut se décomposer en 5 dimensions dont 4 constituent des mesures de prévention de l’indiscipline [@gaudreau2017].
 
-(Livre) La prévention reste un élément-clé et beaucoup de pratiques basées sur les données de recherche sont promues [voir p.ex. @Hulac2017a ; @bissonnette2017 ; @blin2009].
+(Livre) La prévention reste un élément-clé et beaucoup de pratiques basées sur les données de recherche sont promues [voir p.ex. @hulac2017a ; @bissonnette2017 ; @blin2009].
 
 (livre) La discipline positive [@nelsen2014] entre en force en France et en Suisse avec un recueil important de pratiques basées en particulier sur les besoins d’appartenance de chaque enfant.
 
@@ -186,7 +192,7 @@ Article de Catherine Judd, Westfall Et Kenny
             <Title>Valeur p</Title>
             <Text># Valeur p
 
-(Proposition théorique) Les erreurs de conceptions autour de la valeur P sont fréquentes [@goodman2008].
+(Proposition théorique) Les erreurs de conceptions autour de la valeur P sont fréquentes [@goodman2008; @greenland2016].
 
 
 </Text>
@@ -196,7 +202,7 @@ Article de Catherine Judd, Westfall Et Kenny
             <Text>---
 title: "Script du cadre théorique avec références"
 author: "Nicolas Bressoud"
-date: "janvier 2021"
+date: "`r format(Sys.time(), '%d %B %Y')`"
 lang: fr
 toc-title: "Table des matières"
 output: 
@@ -225,13 +231,18 @@ En contexte anglophone, l’éducation positive constitue un domaine pédagogiqu
 
 (Livre) Le terme éducation positive étant connoté, des auteurs n’hésitent pas à utliser d’autres termes [par exemple, @dini2016].
 
-(Livre) On retrouve des ouvrages de grande qualité qui parviennent à faire le pont entre recherche académique et pratiques à portée des parents [p.ex. @Cretin2014 ; @sander2015].
+(Livre) On retrouve des ouvrages de grande qualité qui parviennent à faire le pont entre recherche académique et pratiques à portée des parents [p.ex. @cretin2014 ; @sander2015].
 
 (Étude) On sait que la perception des étudiants, par exemple, de bien apprendre n’est pas forcément liée à leurs apprentissages réels [@deslauriers2019].
+
+(Etude) Le modèle SEARCH est une proposition basée sur une multitude d’études dans le monde. C’est un cadre pour les écoles en ce qui concerne l’implémentation de pratiques valides en éducation positive [@waters2019a].
+
 
 ## Éducation positive et enseignement spécialisé
 
 Rushton, Giallo et Efron [-@rushton2019] ont indiqué le lien entre diagnostic de déficit d’attention et vécu émotionnel à l’école, en pointant le rôle modérateur de la relation maître-élève.
+
+(Revue et proposition) Les pratiques de psychologie positive sont un moyen prometteur de renforcer les dispositions de résilience des enfants ayant vécu des traumatismes [@brunzell2016].
 
 
 
@@ -255,9 +266,9 @@ Rushton, Giallo et Efron [-@rushton2019] ont indiqué le lien entre diagnostic d
 
 ## Bonheur, épistémologie, querelles
 
-(Revue théorique) Les querelles philosophiques autour de la notion de bonheur restent vives [voir, par exemple, @ferry2016].
+(Revue théorique) Les querelles philosophiques autour de la notion de bonheur restent vives [voir, par exemple, @ferry2016a].
 
-(livre) Bienveillance, bonheur ou bien-être semblent devenir des termes courant dans les discussions autour de l’école. Mais de quoi parle-t-on ? Si la bienveillance a une place certaine, elle doit être vue comme une attitude de reconnaissance et d’exigence. @Jellab2018 proposent un cadre et donne la parole à des personnes du terrain.
+(livre) Bienveillance, bonheur ou bien-être semblent devenir des termes courant dans les discussions autour de l’école. Mais de quoi parle-t-on ? Si la bienveillance a une place certaine, elle doit être vue comme une attitude de reconnaissance et d’exigence. @jellab2018 proposent un cadre et donne la parole à des personnes du terrain.
 
 (Livre) Le bonheur est lié à la notion d’épanouissement. En psychologie positive, un ouvrage-phare est celui de Seligman [-@seligman2013a].
 
@@ -269,12 +280,13 @@ Dans le contexte francophone, thématiser sur le bien-être scolaire n’est plu
 
 (Étude, validation) En France, par exemple, le développement de nouvelles mesures permet d’évaluer le bien-être scolaire sous l’angle du développement des compétences psychosociales [@encinar2017].
 
-(Étude, validation) Disposant d’objets de recherches convergents avec la psychologie positive, les sciences affectives proposent aussi de mieux comprendre le rôle des émotions de l’enfant dans ses performances scolaires [voir p.ex. @Pekrun2017].
+(Étude, validation) Disposant d’objets de recherches convergents avec la psychologie positive, les sciences affectives proposent aussi de mieux comprendre le rôle des émotions de l’enfant dans ses performances scolaires [voir p.ex. @pekrun2017].
 
 (Étude) Des études parviennent à mieux cernes les émotions qui vont jouer un rôle favorable aux apprentissage [p.ex. @blanc2018].
 
 (Proposition théorique) Une opérationnalisation de la notion de bienveillance en contexte scolaire permet de mieux saisir en quoi la psychologie positive peut être perçue comme un courant de ressources pratiques [@shankland2018a].
 
+(Étude, validation) Une équipe de recherche s’est intéressée à valider une échelle française d’évaluation du bien-être scolaire [@guimard2017].
 </Text>
         </Document>
         <Document ID="52B6D62D-8F88-49BE-B557-6197175A2D9A">
@@ -291,7 +303,7 @@ Dans le contexte francophone, thématiser sur le bien-être scolaire n’est plu
 
 (Livre) Travailler sur les aspects positifs de l’individu n’est ni nouveau ni original. Parler de talent, d’aisance ou de « son » élément est au coeur des démarches de développement personnel [ voir par exemple @robinson2015].
 
-(Livre) La perspective systémique illustre bien en quoi le repérage et l’activation de ressources, au sein d’un réseau, peut faciliter une évolution favorable des relations [@curonici2014].  
+(Livre) La perspective systémique illustre bien en quoi le repérage et l’activation de ressources, au sein d’un réseau, peut faciliter une évolution favorable des relations [@curonici2014a].  
 
 (Livre) Les forces de caractère sont un champ de recherche et de pratiques prometteuses en ce qui concerne le bien-être et l’épanouissement [@niemiec2019a].
 
@@ -314,11 +326,17 @@ Dans le contexte francophone, thématiser sur le bien-être scolaire n’est plu
 
 (HOT, Livre) Les pratiques pour travailler les forces avec des jeunes en situation de handicap existent et sont sous le radar des équipes de recherche [@wehmeyer2019a].
 
+(Étude) Le fait de permettre aux parents d’enfants avec TSA de bénéficier de programmes de développement des forces favorise la qualité de la prise en charge éducative de leurs enfants [@steiner2011].
+
 ## Perspectives générales
 
 (Proposition théorique) Identifier et utiliser les forces ne suffit pas. La dynamique contextuelle doit être prise en compte [@biswas-diener2011].
 
+(Proposition théorique) Les forces possèdent 6 fonctions qui peuvent aider à faire face à l’adversité [@niemiec2019].
+
 (Étude) Des développements importants ont lieu actuellement pour mieux comprendre la stabilité des forces dans le temps et leur granularité ainsi que leur connexion aux 6 valeurs de base [@ruch2019a].
+
+(Revue et proposition) Le travail sur les forces est utile dans le développement des compétences du 21ème siècle [@lavy2020].
 
 ## Pratiques
 
@@ -355,10 +373,11 @@ Dans le contexte francophone, thématiser sur le bien-être scolaire n’est plu
         </Document>
         <Document ID="A3D37CB2-A555-4D78-98E8-E23164AD30AC">
             <Title>Tentatives de fil rouge</Title>
-            <Text>Day 3: Découvrez le pouvoir positif du pessimisme. Inclus.
+            <Text>Day 3 : Découvrez le pouvoir positif du pessimisme. Inclus.
 
-Day 4: Élaboration de l’Échelle du sentiment d’efficacité personnelle des enseignants en gestion de classe (ÉSEPGC) gaudreau2016. Inclus.
-</Text>
+Day 4 : Élaboration de l’Échelle du sentiment d’efficacité personnelle des enseignants en gestion de classe (ÉSEPGC) gaudreau2016. Inclus.
+
+Day 5 : Engaging Students in Learning Activities: It is Not Autonomy Support or Structure but Autonomy Support and Structure jang2010 inclus 3:38:57</Text>
         </Document>
         <Document ID="612837B7-010B-4855-9B75-1607F0D0D203">
             <Title>Inclusion</Title>
@@ -400,6 +419,18 @@ Day 4: Élaboration de l’Échelle du sentiment d’efficacité personnelle des
 ## Formation des enseignant·es
 
 (Proposition théorique) Le travail à partir de la théorie ou les représentations ne convient pas. L’entrée resterait l’expérience [@willingham2017].
+
+## Engagement scolaire
+
+(Livre) L’engagement scolaire est l’objet de recherches intenses [@guthrie2012].
+
+(Étude) L’engagement des étudiants dépend du soutien à l’autonomie et de la structuration du parcours proposé [@jang2010]. L’autonomie seule ne suffit pas.
+
+
+## Intelligence et Mindsets
+
+(Méta-analyse) Les enfants à risques (académique et niveau socioéconomique défavorable) bénéficient des interventions sur les mindsets [@sisk2018].
+
 
 </Text>
         </Document>

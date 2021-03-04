@@ -1,0 +1,601 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  french,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Script du cadre théorique avec références},
+  pdfauthor={Nicolas Bressoud},
+  pdflang={fr},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\ifxetex
+  % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
+  \usepackage{polyglossia}
+  \setmainlanguage[]{french}
+\else
+  \usepackage[main=french]{babel}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\fi
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\title{Script du cadre théorique avec références}
+\author{Nicolas Bressoud}
+\date{04 mars 2021}
+
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table des matières}
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\hypertarget{inclusion}{%
+\section{Inclusion}\label{inclusion}}
+
+\hypertarget{contexte-et-cadrage-large}{%
+\subsection{Contexte et cadrage large}\label{contexte-et-cadrage-large}}
+
+(HOT, revue théorique) Le terme d'inclusion s'impose dans le langage public à la place du terme intégration. L'inclusion scolaire implique une vision postnormative de l'éducation (Ebersold, 2009).
+
+(Article) Reconnaître la diversité à l'école c'est avoir à choisir entre inclure ou exclure (Prud'homme et al., 2012).
+
+\hypertarget{inclure-cest-diffuxe9rencier}{%
+\subsection{Inclure c'est différencier}\label{inclure-cest-diffuxe9rencier}}
+
+(livre) Si l'inclusion appelle à une prise en compte des différences, il s'agit de prendre en compte la capacité du système scolaire à s'adapter. Cette question occupe les chercheurs ou penseurs en éducation depuis de nombreuses années à partir d'un autre cadre de référence. Philippe Perrenoud (2012) fait partie des personnes francophones qui ont fortement influencé et augmenté notre compréhension du fonctionnement scolaire et des ses caractéristiques normalisantes.
+
+\hypertarget{pratiques}{%
+\subsection{Pratiques}\label{pratiques}}
+
+(Livre) Les pratiques liées à l'inclusion scolaire sont variées et peu équivalentes en termes de qualité. Des auteurs comme par exemple Tremblay (2012) proposent des revues intéressantes des pratiques courantes.
+
+(Livre) L'inclusion scolaire implique des pratiques et compétences pédagogiques bien identifiées (Prud'Homme et al., 2017).
+
+\hypertarget{bonheur-bien-uxeatre-etc}{%
+\section{Bonheur, bien-être, etc}\label{bonheur-bien-uxeatre-etc}}
+
+\hypertarget{bonheur-uxe9pistuxe9mologie-querelles}{%
+\subsection{Bonheur, épistémologie, querelles}\label{bonheur-uxe9pistuxe9mologie-querelles}}
+
+(Revue théorique) Les querelles philosophiques autour de la notion de bonheur restent vives (voir, par exemple, Ferry, 2016).
+
+(livre) Bienveillance, bonheur ou bien-être semblent devenir des termes courant dans les discussions autour de l'école. Mais de quoi parle-t-on ? Si la bienveillance a une place certaine, elle doit être vue comme une attitude de reconnaissance et d'exigence. Jellab \& Marsollier (2018) proposent un cadre et donne la parole à des personnes du terrain.
+
+(Livre) Le bonheur est lié à la notion d'épanouissement. En psychologie positive, un ouvrage-phare est celui de Seligman (2013).
+
+\hypertarget{bien-uxeatre-scolaire-duxe9finition-et-cadre}{%
+\subsection{Bien-être scolaire : définition et cadre}\label{bien-uxeatre-scolaire-duxe9finition-et-cadre}}
+
+Au niveau mondial, des chercheuses telles que Suldo (2016) ont énormément contribué à démocratiser la notion de bien-être scolaire en proposant des programmes à large échelle.
+
+Dans le contexte francophone, thématiser sur le bien-être scolaire n'est plus réservé à une niche (Rousseau \& Espinosa, 2018).
+
+(Étude, validation) En France, par exemple, le développement de nouvelles mesures permet d'évaluer le bien-être scolaire sous l'angle du développement des compétences psychosociales (Encinar et al., 2017).
+
+(Étude, validation) Disposant d'objets de recherches convergents avec la psychologie positive, les sciences affectives proposent aussi de mieux comprendre le rôle des émotions de l'enfant dans ses performances scolaires (voir p.ex. Pekrun et al., 2017).
+
+(Étude) Des études parviennent à mieux cernes les émotions qui vont jouer un rôle favorable aux apprentissage (p.ex. Blanc \& Syssau, 2018).
+
+(Proposition théorique) Une opérationnalisation de la notion de bienveillance en contexte scolaire permet de mieux saisir en quoi la psychologie positive peut être perçue comme un courant de ressources pratiques (Rebecca Shankland et al., 2018).
+
+(Étude, validation) Une équipe de recherche s'est intéressée à valider une échelle française d'évaluation du bien-être scolaire (Guimard et al., 2017).
+
+\hypertarget{forces-de-caractuxe8re}{%
+\section{Forces de caractère}\label{forces-de-caractuxe8re}}
+
+\emph{Fouiller le site VIA.}
+
+\hypertarget{en-guxe9nuxe9ral}{%
+\subsection{En général}\label{en-guxe9nuxe9ral}}
+
+(Livre) La classification la plus célèbre des forces et celle de Peterson et Seligman (2004).
+
+(Livre) L'enjeu est fondamental puisqu'il ne s'agit rien de moins que de changer de point de vue dans un monde obsédé par les faiblesses, les problèmes, les difficultés (Lea Waters, 2017).
+
+(Livre) Travailler sur les aspects positifs de l'individu n'est ni nouveau ni original. Parler de talent, d'aisance ou de «~son~» élément est au coeur des démarches de développement personnel (voir par exemple Robinson et al., 2015).
+
+(Livre) La perspective systémique illustre bien en quoi le repérage et l'activation de ressources, au sein d'un réseau, peut faciliter une évolution favorable des relations (Curonici et al., 2014).
+
+(Livre) Les forces de caractère sont un champ de recherche et de pratiques prometteuses en ce qui concerne le bien-être et l'épanouissement (Niemiec, 2019b).
+
+(Livre) des pratiques pour les parents et familles existent et sont traduites depuis peu en français (voir p.ex. Lea Waters, 2019).
+
+\hypertarget{en-contexte-scolaire}{%
+\subsection{En contexte scolaire}\label{en-contexte-scolaire}}
+
+(Étude) En Australie, un coaching sur les forces développe l'engagement et l'espoir chez des jeunes de environ 10-11 ans (Madden et al., 2011).
+
+(HOT, revue de pratiques) The Good School. En Australie, chez les jeunes 12 ans et moins, différentes intégrations des forces sont présentées. Les chercheurs ne se proposent pas de mesurer les effets (M. A. White et al., 2015a).
+
+(Revue de pratiques) L'intégration des forces dans la vie scolaire est une pratique pertinente dans les écoles du XXIème siècle (Lavy, 2020).
+
+(Livre) Les approches centrées sur les ressources proposent une alternative à l'ennui scolaire (Holmgren et al., 2019).
+
+(Étude) Les rôles dans la classe ont un impact dans la scolarisation des personnes. L'humour, par exemple, en tant que force peut avoir des avantages mais des effets pervers (Ruch et al., 2014; Wagner, 2019).
+
+\hypertarget{en-contexte-duxe9ducation-spuxe9cialisuxe9e}{%
+\subsection{En contexte d'éducation spécialisée}\label{en-contexte-duxe9ducation-spuxe9cialisuxe9e}}
+
+(HOT, Livre) Les pratiques pour travailler les forces avec des jeunes en situation de handicap existent et sont sous le radar des équipes de recherche (Wehmeyer, 2019).
+
+(Étude) Le fait de permettre aux parents d'enfants avec TSA de bénéficier de programmes de développement des forces favorise la qualité de la prise en charge éducative de leurs enfants (Steiner, 2011).
+
+\hypertarget{perspectives-guxe9nuxe9rales}{%
+\subsection{Perspectives générales}\label{perspectives-guxe9nuxe9rales}}
+
+(Proposition théorique) Identifier et utiliser les forces ne suffit pas. La dynamique contextuelle doit être prise en compte (Biswas-Diener et al., 2011).
+
+(Proposition théorique) Les forces possèdent 6 fonctions qui peuvent aider à faire face à l'adversité (Niemiec, 2019a).
+
+(Étude) Des développements importants ont lieu actuellement pour mieux comprendre la stabilité des forces dans le temps et leur granularité ainsi que leur connexion aux 6 valeurs de base (Ruch et al., 2019).
+
+(Revue et proposition) Le travail sur les forces est utile dans le développement des compétences du 21ème siècle (Lavy, 2020).
+
+\hypertarget{pratiques-1}{%
+\subsection{Pratiques}\label{pratiques-1}}
+
+(Livre) Les pratiques concernant les forces sont nombreuses et variées (voir par exemple Niemiec, 2017).
+
+\hypertarget{uxe9ducation-positive}{%
+\section{Éducation positive}\label{uxe9ducation-positive}}
+
+En contexte anglophone, l'éducation positive constitue un domaine pédagogique très sérieux, objet de recherches intenses. Les pratiques pédagogiques proposées sont documentées par des publications scientifiques (M. A. White et al., 2015b).
+
+(Article théorique) La bienveillance ne peut être vue comme un effet de mode (Chalmel, 2018).
+
+\hypertarget{contextualisation-internationale-ou-bonnes-pratiques}{%
+\subsection{Contextualisation internationale ou bonnes pratiques}\label{contextualisation-internationale-ou-bonnes-pratiques}}
+
+(livres) De nombreuses ressources existent pour proposer des interventions éducatives basées sur ce qu'une science du bien-être propose. Par exemple, Harlé (2017) ou Boniwell \& Reynaud (2018) consacrent des ouvrages francophones sur la question en mêlant conseils, pistes et éclairages théoriques.
+
+(Livre) Le terme éducation positive étant connoté, des auteurs n'hésitent pas à utliser d'autres termes (par exemple, Dini \& Scanziani, 2016).
+
+(Livre) On retrouve des ouvrages de grande qualité qui parviennent à faire le pont entre recherche académique et pratiques à portée des parents (p.ex. Crétin, 2014 ; Sander et al., 2015).
+
+(Étude) On sait que la perception des étudiants, par exemple, de bien apprendre n'est pas forcément liée à leurs apprentissages réels (Deslauriers et al., 2019).
+
+(Etude) Le modèle SEARCH est une proposition basée sur une multitude d'études dans le monde. C'est un cadre pour les écoles en ce qui concerne l'implémentation de pratiques valides en éducation positive (L. Waters \& Loton, 2019).
+
+\hypertarget{uxe9ducation-positive-et-enseignement-spuxe9cialisuxe9}{%
+\subsection{Éducation positive et enseignement spécialisé}\label{uxe9ducation-positive-et-enseignement-spuxe9cialisuxe9}}
+
+Rushton, Giallo et Efron (2019) ont indiqué le lien entre diagnostic de déficit d'attention et vécu émotionnel à l'école, en pointant le rôle modérateur de la relation maître-élève.
+
+(Revue et proposition) Les pratiques de psychologie positive sont un moyen prometteur de renforcer les dispositions de résilience des enfants ayant vécu des traumatismes (Brunzell et al., 2016).
+
+\hypertarget{besoins-uxe9ducatifs-particuliers}{%
+\section{Besoins éducatifs particuliers}\label{besoins-uxe9ducatifs-particuliers}}
+
+(Livre) La démarche de projet pédagogique individuel reste une manière courante de travailler sur les singularités des situtations. Cette démarche est à voir essentiellement en tant que procédure de résolution de problèmes (Vianin, 2016).
+
+\hypertarget{contexte-du-handicap-vocabulaire-concepts}{%
+\subsection{Contexte du handicap, vocabulaire, concepts}\label{contexte-du-handicap-vocabulaire-concepts}}
+
+(Proposition théorique) Dans cette approche biopsychosociale, la prise en compte du continuum processuel modifie nos conceptions de la notion de handicap mental et ne la résume pas à une limitation biologique (Kinderman, 2005).
+
+\hypertarget{environnement-actuel}{%
+\subsection{Environnement actuel}\label{environnement-actuel}}
+
+(Livre) L'approche orientée sur les besoins est bien développée, notamment avec les forces (Wehmeyer, 2019).
+
+\hypertarget{psychologie-positive}{%
+\section{Psychologie positive}\label{psychologie-positive}}
+
+\hypertarget{duxe9finition-et-fondements}{%
+\subsection{Définition et fondements}\label{duxe9finition-et-fondements}}
+
+(livre) La psychologie positive est en courant de recherche orienté vers le développement du fonctionnement. Il peut s'inscrire dans une culture humaniste (Rébecca Shankland \& Lantheaume, 2018 ; Lecomte, 2012 ; Martin-Krumm \& Tarquinio, 2011).
+
+(Livre) La psychologie positive ne saurait se réduire à une «~science du positif~». Ce courant s'intéresse en profondeur au fonctionnement humain dans sa globalité. Par exemple, si l'optimisme a longtemps été considéré comme incontournable, l'étude du pessimisme et ses potentiels bienfaits est aussi présente (Norem \& Boniwell, 2015).
+
+\hypertarget{controverses}{%
+\subsection{Controverses}\label{controverses}}
+
+(Méta-analyses, HOT) Les réplications ou corrections statistiques pondèrent la taille d'effet des interventions de psychologie positive (C. A. White et al., 2019).
+
+\hypertarget{uxe9tudes-de-base}{%
+\subsection{Études de base}\label{uxe9tudes-de-base}}
+
+(Étude) Le rôles des émotions positives est mis en évidence dans les changements cognitifs des programmes de psychologie positive (Gander et al., 2018).
+
+\hypertarget{a-luxe9cole-voir-aussi-uxe9ducation-positive}{%
+\subsection{A l'école (voir aussi : éducation positive)}\label{a-luxe9cole-voir-aussi-uxe9ducation-positive}}
+
+(Étude, HOT) Le bien-être subjectif des enfants est impacté par les pratiques de psychologie positive (Roth et al., 2017).
+
+(Étude) Chez les adolescents, l'intégration des stratégies de régulation émotionnelles joue un rôle prépondérant dans le développement du bien-être (Burckhardt et al., 2016).
+
+(Étude) Des progrès sont observés dans la satisfaction de vie des élèves malgré la grande variabilité dûe aux changement biologiques et environnementaux de leur classe d'âge (Suldo et al., 2014).
+
+\hypertarget{climat-de-classe}{%
+\section{Climat de classe}\label{climat-de-classe}}
+
+\hypertarget{climat-duxe9tablissement-et-santuxe9-psychique}{%
+\subsection{Climat d'établissement et santé psychique}\label{climat-duxe9tablissement-et-santuxe9-psychique}}
+
+(Livre) Des pratiques se démarquent et concerne les activités de gratitude (voir p.ex. Rébecca Shankland, 2016).
+
+\hypertarget{relations-et-enjeux-uxe9motionnels-avec-lenseignante}{%
+\subsection{Relations et enjeux émotionnels avec l'enseignant·e}\label{relations-et-enjeux-uxe9motionnels-avec-lenseignante}}
+
+(Proposition théorique) La manière dont les enseignant·es communiquent les émotions, particulièrement dans les petits degrés, est une question importante de la recherche (Yelinek \& Grady, 2017).
+
+(Étude) Chez les adolescent·es, une qualité de relation à l'enseignant·e prédit moins de problèmes de comportement et des attitudes prosociales (Obsuth et al., 2017).
+
+(livre) La qualité de la relation à l'enseignant·e est bien reliée au bien-être et aux performances académiques. Sur ce dernier point, on peut consulter les travaux de synthèse de Hattie \& Clarke (2019).
+
+\hypertarget{gestion-de-classe}{%
+\subsection{Gestion de classe}\label{gestion-de-classe}}
+
+(Méta-analyse) La gestion de classe influence les résultats des élèves, notamment sur les plans motivationnels et émotionnels (Korpershoek et al., 2016).
+
+(Livre) La gestion de classe peut se décomposer en 5 dimensions dont 4 constituent des mesures de prévention de l'indiscipline (Gaudreau, 2017).
+
+(Livre) La prévention reste un élément-clé et beaucoup de pratiques basées sur les données de recherche sont promues (voir p.ex. Hulac \& Briesch, 2017 ; Bissonnette et al., 2017 ; Blin \& Gallais-Deulofeu, 2009).
+
+(livre) La discipline positive (Nelsen et al., 2014) entre en force en France et en Suisse avec un recueil important de pratiques basées en particulier sur les besoins d'appartenance de chaque enfant.
+
+(Livre) Classiquement, les mesures répressives de type «~punition~» sont connues comme inefficaces et, peu à peu, des approches alternatives innovantes apparaissent (Debarbieux, 2018).
+
+(Article, validation) Le SEP des enseignants semble être un bon indicateur des risques en gestion de classe (Gaudreau et al., 2016).
+
+\hypertarget{contexte-scolaire}{%
+\section{Contexte scolaire}\label{contexte-scolaire}}
+
+\hypertarget{contexte-luxe9gal}{%
+\subsection{Contexte légal}\label{contexte-luxe9gal}}
+
+\hypertarget{contexte-romand-ou-valaisan}{%
+\subsection{Contexte romand ou valaisan}\label{contexte-romand-ou-valaisan}}
+
+\hypertarget{environnement-ou-voisinage-puxe9dagogique}{%
+\subsection{Environnement ou voisinage pédagogique}\label{environnement-ou-voisinage-puxe9dagogique}}
+
+(livre) Les débats et transformations scolaires rythment la vie de nos élèves. En reconnaissant l'impact des personnes ayant fondé des courants forts, les chercheurs actuellement contextualisent toujours leur travaux. Par exemple, Houdé (2018) a réalisé un exercice intéressant en liant neurosciences et grands courants pédagogiques classiques.
+
+(Livre) La pleine conscience entre aussi dans les écoles avec des intentions louables, augmenter le bien-être (voir, par exemple, Kotsou, 2018).
+
+(Livre) Une meilleure connaissance de nos biais cognitifs et mécanismes attentionnels ouvre des perspectives enthousiasmantes (Kahneman, 2015).
+
+(Livre) La méthode scientifique et les apports, en particulier, des sciences cognitives, permettent une prise de recul nouvelle sur les habitudes pédagogiques (Brown et al., 2016).
+
+(Livre) Des tentatives plus ou moins heureuses de connecter les pratiques, théories, croyances pédagogiques avec des sciences plus dures existent avec plus ou moins de réussite (voir par exemple Sousa et al., 2013).
+
+\hypertarget{formation-des-enseignantes}{%
+\subsection{Formation des enseignant·es}\label{formation-des-enseignantes}}
+
+(Proposition théorique) Le travail à partir de la théorie ou les représentations ne convient pas. L'entrée resterait l'expérience (Willingham, 2017).
+
+\hypertarget{engagement-scolaire}{%
+\subsection{Engagement scolaire}\label{engagement-scolaire}}
+
+(Livre) L'engagement scolaire est l'objet de recherches intenses (Guthrie et al., 2012).
+
+(Étude) L'engagement des étudiants dépend du soutien à l'autonomie et de la structuration du parcours proposé (Jang et al., 2010). L'autonomie seule ne suffit pas.
+
+\hypertarget{intelligence-et-mindsets}{%
+\subsection{Intelligence et Mindsets}\label{intelligence-et-mindsets}}
+
+(Méta-analyse) Les enfants à risques (académique et niveau socioéconomique défavorable) bénéficient des interventions sur les mindsets (Sisk et al., 2018).
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\hypertarget{ref-bissonnette2017}{}%
+Bissonnette, S., Gauthier, C., \& Castonguay, M. (2017). \emph{L'enseignement Explicite Des Comportements: Pour Une Gestion Efficace Des Élèves En Classe et Dans l'école}. {Chenelière éducation}.
+
+\leavevmode\hypertarget{ref-biswas-diener2011}{}%
+Biswas-Diener, R., Kashdan, T. B., \& Minhas, G. (2011). A Dynamic Approach to Psychological Strength Development and Intervention. \emph{The Journal of Positive Psychology}, \emph{6}(2), 106‑118. \url{https://doi.org/10.1080/17439760.2010.545429}
+
+\leavevmode\hypertarget{ref-blanc2018}{}%
+Blanc, N., \& Syssau, A. (2018). Is It Better to Be Happy or to Be Proud at School before Doing a Text Comprehension Task? {First} Evidence with 10-Year-Old Children. \emph{Revue Europeenne de Psychologie Appliquee}, \emph{68}(4-5), 181‑188. \url{https://doi.org/10.1016/j.erap.2018.09.001}
+
+\leavevmode\hypertarget{ref-blin2009}{}%
+Blin, J.-F., \& Gallais-Deulofeu, C. (2009). \emph{{Classes difficiles: Des outils pour prévenir}}. {Delagrave}.
+
+\leavevmode\hypertarget{ref-boniwell2018}{}%
+Boniwell, I., \& Reynaud, L. (2018). \emph{{Parcours d'éducation positive et scientifique: les 10 étapes clés pour une éducation heureuse et épanouie}}. {Leduc.s pratique}.
+
+\leavevmode\hypertarget{ref-brown2016}{}%
+Brown, P. C., Roediger, H. L., McDaniel, M. A., Pasquinelli, E., Viguier, A., \& Randon-Furling, J. (2016). \emph{{Mets-toi ça dans la tête!: les stratégies d'apprentissage à la lumière des sciences cognitives}}. {Éditions Markus Haller}.
+
+\leavevmode\hypertarget{ref-brunzell2016}{}%
+Brunzell, T., Stokes, H., \& Waters, L. (2016). Trauma-{Informed Positive Education}: {Using Positive Psychology} to {Strengthen Vulnerable Students}. \emph{Contemporary School Psychology}, \emph{20}(1), 63‑83. \url{https://doi.org/10.1007/s40688-015-0070-x}
+
+\leavevmode\hypertarget{ref-burckhardt2016}{}%
+Burckhardt, R., Manicavasagar, V., Batterham, P. J., \& Hadzi-Pavlovic, D. (2016). A Randomized Controlled Trial of Strong Minds: {A} School-Based Mental Health Program Combining Acceptance and Commitment Therapy and Positive Psychology. \emph{Journal of School Psychology}, \emph{57}, 41‑52. \url{https://doi.org/10.1016/j.jsp.2016.05.008}
+
+\leavevmode\hypertarget{ref-chalmel2018}{}%
+Chalmel, L. (2018). De La Bienveillance En Éducation. {Évolution} Historique d'un Concept et Des Pratiques Associées. \emph{Questions vives recherches en éducation}, \emph{N{} 29}, 0‑14. \url{https://doi.org/10.4000/questionsvives.3686}
+
+\leavevmode\hypertarget{ref-cretin2014}{}%
+Crétin, A. (2014). \emph{{Vivre mieux avec les émotions de son enfant}}. {O. Jacob}.
+
+\leavevmode\hypertarget{ref-curonici2014a}{}%
+Curonici, C., Joliat, F., \& MacCulloch, P. (2014). \emph{Des Difficultés Scolaires Aux Ressources de l'école: Un Modèle de Consultation Systémique Pour Psychologues et Enseignants}. {De Boeck}.
+
+\leavevmode\hypertarget{ref-debarbieux2018}{}%
+Debarbieux, É. (éd.). (2018). \emph{L'impasse de La Punition à l'école: Des Solutions Alternatives En Classe}. {Armand Colin}.
+
+\leavevmode\hypertarget{ref-deslauriers2019}{}%
+Deslauriers, L., McCarty, L. S., Miller, K., Callaghan, K., \& Kestin, G. (2019). Measuring Actual Learning versus Feeling of Learning in Response to Being Actively Engaged in the Classroom. \emph{Proceedings of the National Academy of Sciences}, \emph{116}(39), 19251‑19257. \url{https://doi.org/10.1073/pnas.1821936116}
+
+\leavevmode\hypertarget{ref-dini2016}{}%
+Dini, F., \& Scanziani, E. (2016). \emph{{Une éducation intégrale pour grandir en s'épanouissant: accompagner les enfants et les adolescents avec bienveillance et discernement}}. {Faim de Siècle}.
+
+\leavevmode\hypertarget{ref-ebersold2009}{}%
+Ebersold, S. (2009).{} {Inclusion}{}. \emph{Recherche et Formation}, \emph{61}, 71‑83.
+
+\leavevmode\hypertarget{ref-encinar2017}{}%
+Encinar, P.-E., Tessier, D., \& Shankland, R. (2017). Compétences Psychosociales et Bien-Être Scolaire Chez l'enfant : Une Validation Française Pilote. \emph{Enfance}, \emph{2017}(01), 37‑60. \url{https://doi.org/10.4074/s0013754517001045}
+
+\leavevmode\hypertarget{ref-ferry2016a}{}%
+Ferry, L. (2016). \emph{{7 façons d'être heureux ou Les paradoxes du bonheur}}. {XO éditions}.
+
+\leavevmode\hypertarget{ref-gander2018}{}%
+Gander, F., Proyer, R. T., \& Ruch, W. (2018). A {Placebo}-{Controlled Online Study} on {Potential Mediators} of a {Pleasure}-{Based Positive Psychology Intervention}: {The Role} of {Emotional} and {Cognitive Components}. \emph{Journal of Happiness Studies}, \emph{19}(7), 2035‑2048. \url{https://doi.org/10.1007/s10902-017-9909-3}
+
+\leavevmode\hypertarget{ref-gaudreau2017}{}%
+Gaudreau, N. (2017). \emph{Gérer Efficacement Sa Classe: Les Ingrédients Essentiels}. {Presses de l'Université du Québec}.
+
+\leavevmode\hypertarget{ref-gaudreau2016}{}%
+Gaudreau, N., Frenette, É., \& Thibodeau, S. (2016). Élaboration de l'{Échelle} Du Sentiment d'efficacité Personnelle Des Enseignants En Gestion de Classe ({ÉSEPGC}). \emph{Mesure et évaluation en éducation}, \emph{38}(2), 31‑31. \url{https://doi.org/10.7202/1036762ar}
+
+\leavevmode\hypertarget{ref-guimard2017}{}%
+Guimard, P., Bacro, F., Ferrière, S., Florin, A., Guimard, P., Bacro, F., Ferrière, S., Florin, A., Gaudonville, T., \& Guimard, P. (2017). \emph{Le Bien-Être Des Élèves à l ' École et Au Collège . {Validation} d ' Une Échelle Multidimensionnelle , Analyses Descriptives et Différentielles {To} Cite This Version : {HAL Id} : Halshs-01562198 {LE BIEN}-{ÊTRE DES ÉLÈVES À L} ' {ÉCOLE ET AU COLLÈGE Validation} d '}.
+
+\leavevmode\hypertarget{ref-guthrie2012}{}%
+Guthrie, J. T., Wigfield, A., \& You, W. (2012). \emph{Handbook of {Research} on {Student Engagement}}. \url{https://doi.org/10.1007/978-1-4614-2018-7}
+
+\leavevmode\hypertarget{ref-harle2017}{}%
+Harlé, M. (2017). \emph{{Les 5 clés d'une éducation réussie !: dépassez vos préjugés!}} {Hachette Pratique}.
+
+\leavevmode\hypertarget{ref-hattie2019}{}%
+Hattie, J., \& Clarke, S. (2019). \emph{Visible Learning: Feedback}. {Routledge}.
+
+\leavevmode\hypertarget{ref-holmgren2019}{}%
+Holmgren, N., Ledertoug, M. M., Paarup, N., \& Tidmand, L. (2019). \emph{The {Battle} against {Boredom} in Schools}. {Strength Academy}.
+
+\leavevmode\hypertarget{ref-houde2018a}{}%
+Houdé, O. (2018). \emph{{L'école du cerveau: de Montessori, Freinet et Piaget aux sciences cognitives}}.
+
+\leavevmode\hypertarget{ref-hulac2017a}{}%
+Hulac, D. M., \& Briesch, A. M. (2017). \emph{Evidence-Based Strategies for Effective Classroom Management}. {The Guilford Press}.
+
+\leavevmode\hypertarget{ref-jang2010}{}%
+Jang, H., Reeve, J., \& Deci, E. L. (2010). Engaging {Students} in {Learning Activities}: {It} Is {Not Autonomy Support} or {Structure} but {Autonomy Support} and {Structure}. \emph{Journal of Educational Psychology}, \emph{102}(3), 588‑600. \url{https://doi.org/10.1037/a0019682}
+
+\leavevmode\hypertarget{ref-jellab2018}{}%
+Jellab, A., \& Marsollier, C. (2018). \emph{{Bienveillance et bien-être à l'école: plaidoyer pour une éducation humaine et exigeante}}. {Berger-Levrault}.
+
+\leavevmode\hypertarget{ref-kahneman2015}{}%
+Kahneman, D. (2015). \emph{{Système 1, système 2: les deux vitesses de la pensée}}. {Flammarion}.
+
+\leavevmode\hypertarget{ref-kinderman2005}{}%
+Kinderman, P. (2005). A Psychological Model of Mental Disorder. \emph{Harvard Review of Psychiatry}, \emph{13}(4), 206‑217. \url{https://doi.org/10.1080/10673220500243349}
+
+\leavevmode\hypertarget{ref-korpershoek2016}{}%
+Korpershoek, H., Harms, T., de Boer, H., van Kuijk, M., \& Doolaard, S. (2016). A {Meta}-{Analysis} of the {Effects} of {Classroom Management Strategies} and {Classroom Management Programs} on {Students Academic}, {Behavioral}, {Emotional}, and {Motivational Outcomes}. \emph{Review of Educational Research}, \emph{86}(3), 643‑680. \url{https://doi.org/10.3102/0034654315626799}
+
+\leavevmode\hypertarget{ref-kotsou2018}{}%
+Kotsou, I. (2018). \emph{{La pleine conscience à l'école: de 5 ans à 12 ans.}} {De Boeck}.
+
+\leavevmode\hypertarget{ref-lavy2020}{}%
+Lavy, S. (2020). A {Review} of {Character Strengths Interventions} in {Twenty}-{First}-{Century Schools}: Their {Importance} and {How} They Can Be {Fostered}. \emph{Applied Research in Quality of Life}, \emph{15}(2), 573‑596. \url{https://doi.org/10.1007/s11482-018-9700-6}
+
+\leavevmode\hypertarget{ref-lecomte2012c}{}%
+Lecomte, J. (2012). \emph{La Bonté Humaine: {Altruisme}, Empathie, Générosité}. {Odile Jacob}.
+
+\leavevmode\hypertarget{ref-madden2011}{}%
+Madden, W., Green, S., \& Grant, A. M. (2011). A Pilot Study Evaluating Strengths-Based Coaching for Primary School Students: {Enhancing} Engagement and Hope. \emph{International Coaching Psychology Review}, \emph{6}(1), 71‑83.
+
+\leavevmode\hypertarget{ref-martin-krumm2011}{}%
+Martin-Krumm, C., \& Tarquinio, C. (2011). \emph{{Traité de psychologie positive}}. {De Boeck}.
+
+\leavevmode\hypertarget{ref-nelsen2014}{}%
+Nelsen, J., Sabaté, B., \& Delacroix, S. (2014). \emph{{La discipline positive: en famille, à l'école, comment éduquer avec fermeté et bienveillance}}. {Marabout}.
+
+\leavevmode\hypertarget{ref-niemiec2017b}{}%
+Niemiec, R. M. (2017). \emph{Character Strengths Interventions: A Field Guide for Practitioners}. {Hogrefe}.
+
+\leavevmode\hypertarget{ref-niemiec2019}{}%
+Niemiec, R. M. (2019a). Six {Functions} of {Character Strengths} for {Thriving} at {Times} of {Adversity} and {Opportunity}: A {Theoretical Perspective}. \emph{Applied Research in Quality of Life}, \emph{February}. \url{https://doi.org/10.1007/s11482-018-9692-2}
+
+\leavevmode\hypertarget{ref-niemiec2019a}{}%
+Niemiec, R. M. (2019b). \emph{The {Power} of Character Strengths: Appreciate and Ignite Your Positive Personality}. {VIA Institute on Character}.
+
+\leavevmode\hypertarget{ref-norem2015}{}%
+Norem, J., \& Boniwell, I. (2015). \emph{{Découvrez le pouvoir positif du pessimisme!}} {InterEditions}.
+
+\leavevmode\hypertarget{ref-obsuth2017}{}%
+Obsuth, I., Murray, A. L., Malti, T., Sulger, P., Ribeaud, D., \& Eisner, M. (2017). A {Non}-Bipartite {Propensity Score Analysis} of the {Effects} of {Teacher}-{Student Relationships} on {Adolescent Problem} and {Prosocial Behavior}. \emph{Journal of Youth and Adolescence}, \emph{46}(8), 1661‑1687. \url{https://doi.org/10.1007/s10964-016-0534-y}
+
+\leavevmode\hypertarget{ref-pekrun2017}{}%
+Pekrun, R., Vogl, E., Muis, K. R., \& Sinatra, G. M. (2017). Measuring Emotions during Epistemic Activities: The {Epistemically}-{Related Emotion Scales}. \emph{Cognition and Emotion}, \emph{31}(6), 1268‑1276. \url{https://doi.org/10.1080/02699931.2016.1204989}
+
+\leavevmode\hypertarget{ref-peterson2004}{}%
+Peterson, C., \& Seligman, M. E. P. (2004). \emph{Character Strengths and Virtues: A Handbook and Classification}. {American Psychological Association ; Oxford University Press}.
+
+\leavevmode\hypertarget{ref-philippeperrenoud2012}{}%
+Philippe Perrenoud. (2012). \emph{L'organisation Du Travail, Clé de Toute Pédagogie Différenciée}. {ESF}.
+
+\leavevmode\hypertarget{ref-prudhomme2017}{}%
+Prud'Homme, L., Duchesne, H., \& Bonvin, P. (2017). \emph{{L'inclusion scolaire: ses fondements, ses acteurs et ses pratiques}} (DeBoeck).
+
+\leavevmode\hypertarget{ref-prudhomme2012}{}%
+Prud'homme, L., Vienneau, R., Ramel, S., \& Rousseau, N. (2012). La Légitimité de La Diversité En Éducation~: Réflexion Sur l'{inclusionThe Legitimacy} of {Diversity} in {Education}: {A Reflection} on {InclusionLa} Legitimidad de La Diversidad En Educación: Reflexión Sobre La Inclusión. \emph{Éducation Et Francophonie}, \emph{39}(2), 6‑6. \url{https://doi.org/10.7202/1007725ar}
+
+\leavevmode\hypertarget{ref-robinson2015}{}%
+Robinson, K., Aronica, L., Robinson, K., \& Bouvier, M. (2015). \emph{{Trouver son élément: comment découvrir ses talents et ses passions pour tranformer sa vie!}}
+
+\leavevmode\hypertarget{ref-roth2017}{}%
+Roth, R. A., Suldo, S. M., \& Ferron, J. M. (2017). Improving {Middle School Students}' {Subjective Well}-{Being}: {Efficacy} of a {Multicomponent Positive Psychology Intervention Targeting Small Groups} of {Youth}. \emph{School Psychology Review}, \emph{46}(1), 21‑41. \url{https://doi.org/10.17105/10.17105/spr46-1.21-41}
+
+\leavevmode\hypertarget{ref-rousseau2018}{}%
+Rousseau, N., \& Espinosa, G. (éds.). (2018). \emph{Le Bien-Être à l'école: Enjeux et Stratégies Gagnantes}. {Presses de l'Université du Québec}.
+
+\leavevmode\hypertarget{ref-ruch2019a}{}%
+Ruch, W., Gander, F., Wagner, L., \& Giuliani, F. (2019). The Structure of Character: {On} the Relationships between Character Strengths and Virtues. \emph{The Journal of Positive Psychology}, 1‑13. \url{https://doi.org/10.1080/17439760.2019.1689418}
+
+\leavevmode\hypertarget{ref-ruch2014}{}%
+Ruch, W., Platt, T., \& Hofmann, J. (2014). The Character Strengths of Class Clowns. \emph{Frontiers in Psychology}, \emph{5}(SEP), 1‑12. \url{https://doi.org/10.3389/fpsyg.2014.01075}
+
+\leavevmode\hypertarget{ref-rushton2019}{}%
+Rushton, S., Giallo, R., \& Efron, D. (2019). {ADHD} and Emotional Engagement with School in the Primary Years: {Investigating} the Role of Student{}Teacher Relationships. \emph{British Journal of Educational Psychology}, bjep.12316‑bjep.12316. \url{https://doi.org/10.1111/bjep.12316}
+
+\leavevmode\hypertarget{ref-sander2015}{}%
+Sander, D., Schwartz, S., \& Perrin, C. (2015). \emph{{Au coeur des émotions}} (Nouvelle version). {Éditions le Pommier}.
+
+\leavevmode\hypertarget{ref-seligman2013a}{}%
+Seligman, M. E. P. (2013). \emph{{S'épanouir: pour un nouvel art du bonheur et du bien-être}}.
+
+\leavevmode\hypertarget{ref-shankland2016a}{}%
+Shankland, Rébecca. (2016). \emph{{Les Pouvoirs de la gratitude}}. {Odile Jacob}.
+
+\leavevmode\hypertarget{ref-shankland2018a}{}%
+Shankland, Rebecca, Bressoud, N., Tessier, D., \& Gay, P. (2018). La Bienveillance~: Une Compétence Socio-Émotionnelle de l'enseignant Au Service Du Bien-Être et Des Apprentissages~? \emph{Questions vives recherches en éducation}, \emph{N{} 29}, 0‑23. \url{https://doi.org/10.4000/questionsvives.3601}
+
+\leavevmode\hypertarget{ref-shankland2018b}{}%
+Shankland, Rébecca, \& Lantheaume, S. (2018). \emph{{La psychologie positive}}.
+
+\leavevmode\hypertarget{ref-sisk2018}{}%
+Sisk, V. F., Burgoyne, A. P., Sun, J., Butler, J. L., \& Macnamara, B. N. (2018). To {What Extent} and {Under Which Circumstances Are Growth Mind}-{Sets Important} to {Academic Achievement}? {Two Meta}-{Analyses}. \emph{Psychological Science}, \emph{29}(4), 549‑571. \url{https://doi.org/10.1177/0956797617739704}
+
+\leavevmode\hypertarget{ref-sousa2013}{}%
+Sousa, D. A., Tomlinson, C. A., \& Sirois, G. (2013). \emph{{Comprendre le cerveau pour mieux différencier: adapter l'enseignement aux besoins des apprenants grâce aux apports des neurosciences}}. {Chenelière éducation}.
+
+\leavevmode\hypertarget{ref-steiner2011}{}%
+Steiner, A. M. (2011). A Strength-Based Approach to Parent Education for Children with Autism. \emph{Journal of Positive Behavior Interventions}, \emph{13}(3), 178‑190. \url{https://doi.org/10.1177/1098300710384134}
+
+\leavevmode\hypertarget{ref-suldo2016a}{}%
+Suldo, S. M. (2016). \emph{Promoting Student Happiness: Positive Psychology Interventions in Schools}. {The Guilford Press}.
+
+\leavevmode\hypertarget{ref-suldo2014}{}%
+Suldo, S. M., Savage, J. A., \& Mercer, S. H. (2014). Increasing {Middle School Students}' {Life Satisfaction}: {Efficacy} of a {Positive Psychology Group Intervention}. \emph{Journal of Happiness Studies}, \emph{15}(1), 19‑42. \url{https://doi.org/10.1007/s10902-013-9414-2}
+
+\leavevmode\hypertarget{ref-tremblay2012}{}%
+Tremblay, P. (2012). \emph{{Inclusion scolaire: dispositifs et pratiques pédagogiques}}. {De Boeck}.
+
+\leavevmode\hypertarget{ref-vianin2016}{}%
+Vianin, P. (2016). \emph{{Comment développer un processus d'aide pour les élèves en difficulté?: enseignants, psychologues, éducateurs, formateurs}}. {De Boeck supérieur}.
+
+\leavevmode\hypertarget{ref-wagner2019a}{}%
+Wagner, L. (2019). The Social Life of Class Clowns: {Class} Clown Behavior Is Associated with More Friends, but Also More Aggressive Behavior in the Classroom. \emph{Frontiers in Psychology}, \emph{10}(APR), 1‑11. \url{https://doi.org/10.3389/fpsyg.2019.00604}
+
+\leavevmode\hypertarget{ref-waters2017}{}%
+Waters, Lea. (2017). \emph{The Strength Switch: How the New Science of Strength-Based Parenting Can Help Your Child and Your Teen to Flourish}. {Avery, an imprint of Penguin Random House}.
+
+\leavevmode\hypertarget{ref-waters2019}{}%
+Waters, Lea. (2019). \emph{{Cultiver ses forces: l'éducation positive au quotidien}}.
+
+\leavevmode\hypertarget{ref-waters2019a}{}%
+Waters, L., \& Loton, D. (2019). {SEARCH}: {A Meta}-{Framework} and {Review} of the {Field} of {Positive Education}. \emph{International Journal of Applied Positive Psychology}. \url{https://doi.org/10.1007/s41042-019-00017-4}
+
+\leavevmode\hypertarget{ref-wehmeyer2019a}{}%
+Wehmeyer, M. L. (2019). \emph{Strength-Based Approaches to Educating All Learners with Disabilities: Beyond Special Education}. {Teachers College Press}.
+
+\leavevmode\hypertarget{ref-white2019}{}%
+White, C. A., Uttl, B., \& Holder, M. D. (2019). Meta-Analyses of Positive Psychology Interventions: {The} Effects Are Much Smaller than Previously Reported. \emph{PLOS ONE}, \emph{14}(5), e0216588‑e0216588. \url{https://doi.org/10.1371/journal.pone.0216588}
+
+\leavevmode\hypertarget{ref-white2015a}{}%
+White, M. A., Murray, A. S., \& Seligman, M. E. P. (2015a). \emph{Evidence-Based Approaches in Positive Education: Implementing a Strategic Framework for Well-Being in Schools}.
+
+\leavevmode\hypertarget{ref-white2015c}{}%
+White, M. A., Murray, A. S., \& Seligman, M. E. P. (2015b). \emph{Evidence-Based Approaches in Positive Education: Implementing a Strategic Framework for Well-Being in Schools}.
+
+\leavevmode\hypertarget{ref-willingham2017}{}%
+Willingham, D. T. (2017). A {Mental Model} of the {Learner} : {Teaching} the {Basic Science} of {Educational Psychology} to {Future Teachers}. \emph{Mind, Brain, and Education}, \emph{11}(4), 166‑175. \url{https://doi.org/10.1111/mbe.12155}
+
+\leavevmode\hypertarget{ref-yelinek2017}{}%
+Yelinek, J., \& Grady, J. S. (2017). {``{Show} Me Your Mad Faces!''} Preschool Teachers' Emotion Talk in the Classroom. \emph{Early Child Development and Care}, \emph{189}(7), 1063‑1071. \url{https://doi.org/10.1080/03004430.2017.1363740}
+
+\end{CSLReferences}
+
+\end{document}
