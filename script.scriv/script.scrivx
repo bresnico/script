@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="F190E3F8-C7D1-4132-A02B-913A952571CC" Version="2.0" Creator="SCRMAC-3.2.2-14632" Device="MacBook-Pro-de-Nicolas" Author="" Modified="2021-03-08 10:48:13 +0100" ModID="7772AA43-9C62-49D6-975E-4B9552F03291">
+<ScrivenerProject Identifier="F190E3F8-C7D1-4132-A02B-913A952571CC" Version="2.0" Creator="SCRMAC-3.2.2-14632" Device="MacBook-Pro-de-Nicolas" Author="" Modified="2021-03-25 08:59:21 +0100" ModID="3B6F674D-A0E9-4058-94A2-F27500B54737">
     <Binder>
         <BinderItem UUID="CE1F9961-6785-47CE-9B78-73F9915DB862" Type="DraftFolder" Created="2020-10-22 09:38:38 +0200" Modified="2020-10-22 10:56:57 +0200">
             <Title>Script des notions</Title>
@@ -44,7 +44,7 @@
                         <TextSelection>349,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="DE4AF975-C2AC-4A8E-9299-4E7B57A47E86" Type="Text" Created="2020-10-22 14:09:29 +0200" Modified="2021-03-04 14:55:30 +0100">
+                <BinderItem UUID="DE4AF975-C2AC-4A8E-9299-4E7B57A47E86" Type="Text" Created="2020-10-22 14:09:29 +0200" Modified="2021-03-25 08:59:21 +0100">
                     <Title>Bonheur</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -362,12 +362,12 @@
     </StatusSettings>
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2020-10-22 09:38:37 +0200" IgnoreDeadline="Yes">0</DraftTarget>
-        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2021-03-09 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2021-03-08 10:48:02 +0100"/>
+        <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" NextResetDate="2021-03-26 00:00:00 +0100" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
+        <PreviousSession Words="18" Characters="162" Date="2021-03-25 08:58:41 +0100"/>
     </ProjectTargets>
-    <RecentWritingHistory Date="2021-03-08 00:00:00 +0100">
-        <DraftWordCount>0</DraftWordCount>
-        <DraftCharCount>0</DraftCharCount>
+    <RecentWritingHistory Date="2021-03-25 00:00:00 +0100">
+        <DraftWordCount>18</DraftWordCount>
+        <DraftCharCount>162</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
         <OtherCharCount>0</OtherCharCount>
     </RecentWritingHistory>
