@@ -5,13 +5,13 @@ date: "`r format(Sys.time(), '%d %B %Y')`"
 lang: fr
 toc-title: "Table des matières"
 output: 
-  bookdown::pdf_document2:
-    keep_tex: true
-  bookdown::html_document2:
-    toc: true
   bookdown::word_document2:
     toc: true
     reference_docx: "template.docx"
+  bookdown::html_document2:
+    toc: true
+  bookdown::pdf_document2:
+    keep_tex: true
 bibliography: library_github_m1.bib
 csl: apa.csl
 ---
